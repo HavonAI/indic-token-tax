@@ -1,5 +1,7 @@
 # Havon tokenizers used in the study
 
+**License:** CC BY-NC-SA 4.0 (see `LICENSE` in this folder). The training text includes L3Cube HingCorpus and MeCorpus, which are CC BY-NC-SA 4.0.
+
 All three are byte-level BPE tokenizers trained from scratch. The files are unchanged from training.
 
 | | Havon v1 | Havon v2 |

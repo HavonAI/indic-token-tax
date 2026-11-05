@@ -43,8 +43,9 @@ Outputs are written to `results/`. The committed files in `results/` are the out
 
 ## Data sources and licenses
 
-FLORES-200 (CC BY-SA 4.0), PHINC (CC BY 4.0), Dakshina (CC BY-SA 4.0), MorphTok (CC BY 4.0), L3Cube HingCorpus and MeCorpus (no license stated in the copies used). Datasets are downloaded from their original sources and are not redistributed in this repository.
+FLORES-200 (CC BY-SA 4.0), PHINC (CC BY 4.0), Dakshina (CC BY-SA 4.0), MorphTok (CC BY 4.0), L3Cube HingCorpus and MeCorpus (CC BY-NC-SA 4.0, research use). Datasets are downloaded from their original sources and are not redistributed in this repository.
 
 ## License
 
-Code and the Havon tokenizer files: Apache License 2.0 (see `LICENSE`).
+- **Code:** Apache License 2.0 (see `LICENSE`).
+- **Havon tokenizer files** (`tokenizers/`): CC BY-NC-SA 4.0 (see `tokenizers/LICENSE`), because their training text includes L3Cube HingCorpus and MeCorpus, which are CC BY-NC-SA 4.0. We have asked L3Cube about commercial use and will update this if that changes.
