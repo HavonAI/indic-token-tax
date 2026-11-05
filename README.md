@@ -10,7 +10,7 @@ Python 3.12 or later. Run all commands from the repository root.
 
 ```bash
 pip install -r requirements.txt
-TOK=(--tokenizer "Havon v1=tokenizers/havon_v1/tokenizer.json" --tokenizer "Havon v2=tokenizers/havon_v2/tokenizer.json")
+TOK=(--tokenizer "Havon v1=tokenizers/havon_v1/tokenizer.json" --tokenizer "Havon v2=tokenizers/havon_v2/tokenizer.json" --tokenizer "Havon v3=tokenizers/havon_v3/tokenizer.json")
 python measure.py --mecorpus PATH/TO/me_roman.txt "${TOK[@]}"   # FLORES-200, PHINC, HingCorpus, MeCorpus
 python morph_align.py "${TOK[@]}"                               # morpheme boundary alignment (MorphTok)
 python cost.py                                                  # illustrative rupee cost example

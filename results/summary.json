@@ -107,6 +107,11 @@
       "source": "tokenizers/havon_v2/tokenizer.json",
       "sha256": "098d13988eb2203bbaf38186180e29a87e804e635179cef4910610eb59f51d47",
       "vocab": 32768
+    },
+    "Havon v3": {
+      "source": "tokenizers/havon_v3/tokenizer.json",
+      "sha256": "b6dcb2360980386bee48ff733ed92cd3ed19a86d11df63331243efb9b237a721",
+      "vocab": 262144
     }
   },
   "reference_english": "GPT-4o (o200k_base)",
@@ -297,6 +302,23 @@
       "tpw_hinglish_phinc": 1.54,
       "tpw_hinglish_hingcorpus": 1.345,
       "tpw_mar_rom_mecorpus": 1.807
+    },
+    "Havon v3": {
+      "tps_eng_flores": 27.926,
+      "tps_hin_flores": 34.961,
+      "tps_mar_flores": 32.235,
+      "mar_vs_ref_english": 1.236,
+      "hin_vs_ref_english": 1.34,
+      "parity_hin_flores": 1.252,
+      "parity_mar_flores": 1.154,
+      "parity_hinglish_phinc": 1.121,
+      "tpw_eng_flores": 1.309,
+      "tpw_hin_flores": 1.398,
+      "tpw_mar_flores": 1.745,
+      "tpw_eng_phinc": 1.413,
+      "tpw_hinglish_phinc": 1.465,
+      "tpw_hinglish_hingcorpus": 1.298,
+      "tpw_mar_rom_mecorpus": 1.77
     }
   },
   "indic": {
@@ -376,6 +398,13 @@
       "max_parity_lang": "tam_Taml",
       "min_parity": 1.092,
       "min_parity_lang": "mar_Deva"
+    },
+    "Havon v3": {
+      "median_parity": 1.3,
+      "max_parity": 1.754,
+      "max_parity_lang": "sat_Olck",
+      "min_parity": 1.123,
+      "min_parity_lang": "npi_Deva"
     }
   }
 }

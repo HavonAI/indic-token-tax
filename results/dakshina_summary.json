@@ -48,6 +48,11 @@
    "source": "tokenizers/havon_v2/tokenizer.json",
    "sha256": "098d13988eb2203bbaf38186180e29a87e804e635179cef4910610eb59f51d47",
    "vocab": 32768
+  },
+  "Havon v3": {
+   "source": "tokenizers/havon_v3/tokenizer.json",
+   "sha256": "b6dcb2360980386bee48ff733ed92cd3ed19a86d11df63331243efb9b237a721",
+   "vocab": 262144
   }
  },
  "roman_vs_native": {
@@ -204,6 +209,20 @@
    "ta": 0.1585,
    "te": 0.2069,
    "ur": 0.2924
+  },
+  "Havon v3": {
+   "bn": 1.2655,
+   "gu": 1.2125,
+   "hi": 1.1383,
+   "kn": 1.2685,
+   "ml": 1.228,
+   "mr": 1.1922,
+   "pa": 1.0866,
+   "sd": 1.3072,
+   "si": 0.9765,
+   "ta": 1.3761,
+   "te": 1.207,
+   "ur": 1.1763
   }
  }
 }
