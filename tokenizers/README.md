@@ -1,6 +1,6 @@
 # Havon tokenizers used in the study
 
-Both are byte-level BPE tokenizers trained from scratch. The files are unchanged from training.
+All three are byte-level BPE tokenizers trained from scratch. The files are unchanged from training.
 
 | | Havon v1 | Havon v2 |
 |---|---|---|
@@ -31,3 +31,19 @@ Documents shorter than 200 characters are dropped. Social media posts are cleane
 ## Overlap with the evaluation data
 
 HingCorpus and MeCorpus were used in training, so the romanized results on those corpora are optimistic. PHINC and Dakshina were not used in training. We did not check FLORES-200 sentences for overlap with the web-crawled training sources.
+
+## Havon v3 (multilingual)
+
+| | Havon v3 |
+|---|---|
+| File | `havon_v3/tokenizer.json` |
+| SHA-256 | `b6dcb2360980386bee48ff733ed92cd3ed19a86d11df63331243efb9b237a721` |
+| Vocabulary | 262,144 (64 special tokens: v2's 12 plus 52 reserved) |
+| Normalizer | NFC |
+| Pre-tokenizer | v2's rule (letters and marks together, single digits), plus chunking for scripts written without spaces: Han and kana in runs of at most 3 characters; Thai, Lao, Khmer, Myanmar and Tibetan in runs of at most 6 letters, each with its marks |
+| min_frequency / max_token_length | 2 / 32 |
+| Training sample | 1.69 billion characters planned; the first 60% of each language's sample was used (about 1.0 billion characters) to fit in 32 GB |
+| Sources | FineWeb-2 (about 195 languages), AI4Bharat Sangraha plus FineWeb-2 (22 languages of India), FineWeb-Edu (English), and v2's romanized, mathematics and code sources. Human-written text only |
+| Per-language budgets | 30M characters per language of India, 10M for about 56 major world languages, 2M for the rest, 120M English, 20M each for romanized Hindi and romanized Marathi, 30M mathematics, 40M code (before the 60% cut) |
+
+FineWeb-2 and Sangraha are web text, and we did not check FLORES-200 sentences for overlap with v3's sample.

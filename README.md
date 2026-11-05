@@ -16,7 +16,12 @@ python morph_align.py "${TOK[@]}"                               # morpheme bound
 python cost.py                                                  # illustrative rupee cost example
 python dakshina.py "${TOK[@]}"                                  # romanized vs native script (Dakshina)
 python check_tokenizer_equivalence.py                           # DeepSeek V4 vs V3 tokenizer check
+# Havon v3 (Section IV-H): all 204 FLORES-200 languages; FLORES tarball is downloaded by measure.py
+python eval_world.py --flores data/flores/flores200_dataset.tar.gz --split devtest \
+    --candidate "Havon v3=tokenizers/havon_v3/tokenizer.json" --candidate "Havon v2=tokenizers/havon_v2/tokenizer.json" --out results
 ```
+
+Havon v3's vocabulary size (262,144) was chosen on FLORES-200 dev, using `truncate.py` to cut 65,536, 131,072 and 196,608-token versions from the same merge list (`results/world_dev.csv`); the paper reports devtest only (`results/world_devtest.csv`).
 
 Outputs are written to `results/`. The committed files in `results/` are the outputs reported in the paper. Re-running should reproduce them byte for byte. The one exception is `summary.json`, which records the MeCorpus filename you pass in.
 
@@ -31,8 +36,10 @@ Outputs are written to `results/`. The committed files in `results/` are the out
 | `cost.py` | Worked example converting parity into list-price cost (illustrative, not measured) |
 | `dakshina.py` | Romanized versus native-script tokens on Dakshina, for 12 languages |
 | `check_tokenizer_equivalence.py` | Component-by-component SHA-256 comparison of the DeepSeek V3 and V4 tokenizers |
+| `eval_world.py` | Token counts for every FLORES-200 language, for Havon v3 and the public rival tokenizers |
+| `truncate.py` | Cuts a smaller BPE tokenizer from a larger one (exact prefix of its merges) |
 | `results/` | Raw token counts and summaries behind every table and figure |
-| `tokenizers/` | The two Havon tokenizers evaluated in the paper, with their training configuration |
+| `tokenizers/` | The three Havon tokenizers evaluated in the paper, with their training configuration |
 
 ## Data sources and licenses
 
