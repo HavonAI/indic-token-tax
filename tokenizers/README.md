@@ -49,3 +49,17 @@ HingCorpus and MeCorpus were used in training, so the romanized results on those
 | Per-language budgets | 30M characters per language of India, 10M for about 56 major world languages, 2M for the rest, 120M English, 20M each for romanized Hindi and romanized Marathi, 30M mathematics, 40M code (before the 60% cut) |
 
 FineWeb-2 and Sangraha are web text, and we did not check FLORES-200 sentences for overlap with v3's sample.
+
+## Havon v4 (multi-word)
+
+v4 keeps the first merges of Havon v3 and continues training with a pre-tokenizer that no longer splits at spaces, so later tokens can span several words (SuperBPE, Liu et al., 2025). Digits and punctuation runs are still split, and scripts without spaces keep v3's chunking. Stage 2 learned from the first 12% of each language's v3 sample (about 335 MB), using the SuperBPE fork of the Hugging Face tokenizers library at commit 757f2a5. Each smaller size is an exact prefix of a larger run's merges, cut with `truncate.py`.
+
+| | v4-200k | v4-256k | v4-512k |
+|---|---|---|---|
+| File | `havon_v4/tokenizer_200k.json` | `havon_v4/tokenizer_256k.json` | `havon_v4/tokenizer_512k.json` |
+| SHA-256 | `3d4f742314b67ceb224ddfe306611bf795ba8f407b726def7dc2cd0e78bf6eaf` | `424929c501cfdecdd4899aceb6d653a065ebd1fe7c6643d53ca77976a19a1758` | `7264c95c4b061e9f2babed1b8d3ae447ef674c770f3ef571546cab531a9f4bcd` |
+| Vocabulary | 200,019 (equal to GPT-4o's o200k_base) | 262,144 | 524,288 |
+| Merges inherited from v3 | 160,000 | 210,000 | 210,000 |
+| Training run | its own run, trained to 200,019 | cut from the 524,288 run | the 524,288 run |
+
+Special tokens, normalizer and the within-word rule are the same as v3's.

@@ -1,0 +1,237 @@
+{
+ "split": "dev",
+ "languages": 204,
+ "candidates": {
+  "v4-256k": {
+   "english_vs_gpt4o": 0.9039,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 180,
+     "losses": [
+      "acm_Arab",
+      "acq_Arab",
+      "afr_Latn",
+      "apc_Arab",
+      "arb_Arab",
+      "ars_Arab",
+      "bak_Cyrl",
+      "bel_Cyrl",
+      "cym_Latn",
+      "deu_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "isl_Latn",
+      "jav_Latn",
+      "kir_Cyrl",
+      "ltz_Latn",
+      "mlt_Latn",
+      "nld_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "spa_Latn",
+      "tgk_Cyrl",
+      "tuk_Latn",
+      "zho_Hans"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 204,
+     "losses": []
+    },
+    "Sarvam-30B/105B": {
+     "wins": 192,
+     "losses": [
+      "ben_Beng",
+      "deu_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "ita_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "sat_Olck",
+      "spa_Latn",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 202,
+     "losses": [
+      "tam_Taml",
+      "tel_Telu"
+     ]
+    },
+    "Qwen2.5": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 199,
+     "losses": [
+      "jpn_Jpan",
+      "tha_Thai",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  },
+  "v4-512k": {
+   "english_vs_gpt4o": 0.8273,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 203,
+     "losses": [
+      "deu_Latn"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 204,
+     "losses": []
+    },
+    "Sarvam-30B/105B": {
+     "wins": 200,
+     "losses": [
+      "deu_Latn",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 204,
+     "losses": []
+    },
+    "Qwen2.5": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  },
+  "v3": {
+   "english_vs_gpt4o": 1.0703,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 170,
+     "losses": [
+      "acm_Arab",
+      "acq_Arab",
+      "afr_Latn",
+      "ajp_Arab",
+      "apc_Arab",
+      "arb_Arab",
+      "ars_Arab",
+      "ast_Latn",
+      "bel_Cyrl",
+      "cat_Latn",
+      "cym_Latn",
+      "deu_Latn",
+      "eng_Latn",
+      "fao_Latn",
+      "fra_Latn",
+      "gla_Latn",
+      "gle_Latn",
+      "glg_Latn",
+      "hat_Latn",
+      "isl_Latn",
+      "ita_Latn",
+      "jav_Latn",
+      "kir_Cyrl",
+      "lim_Latn",
+      "ltz_Latn",
+      "mlt_Latn",
+      "nld_Latn",
+      "oci_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "spa_Latn",
+      "tgk_Cyrl",
+      "tuk_Latn",
+      "zho_Hans"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 203,
+     "losses": [
+      "eng_Latn"
+     ]
+    },
+    "Sarvam-30B/105B": {
+     "wins": 187,
+     "losses": [
+      "ast_Latn",
+      "ben_Beng",
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "hin_Deva",
+      "ind_Latn",
+      "ita_Latn",
+      "nld_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "sat_Olck",
+      "spa_Latn",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 200,
+     "losses": [
+      "hin_Deva",
+      "pan_Guru",
+      "tam_Taml",
+      "tel_Telu"
+     ]
+    },
+    "Qwen2.5": {
+     "wins": 199,
+     "losses": [
+      "eng_Latn",
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 196,
+     "losses": [
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "jpn_Jpan",
+      "tha_Thai",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  }
+ }
+}

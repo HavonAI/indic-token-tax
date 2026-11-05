@@ -1,0 +1,131 @@
+{
+ "split": "devtest",
+ "languages": 204,
+ "candidates": {
+  "v4-256k": {
+   "english_vs_gpt4o": 0.9038,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 182,
+     "losses": [
+      "acm_Arab",
+      "acq_Arab",
+      "afr_Latn",
+      "apc_Arab",
+      "arb_Arab",
+      "ars_Arab",
+      "bak_Cyrl",
+      "bel_Cyrl",
+      "cym_Latn",
+      "deu_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "isl_Latn",
+      "kir_Cyrl",
+      "ltz_Latn",
+      "nld_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "spa_Latn",
+      "tgk_Cyrl",
+      "tuk_Latn",
+      "zho_Hans"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 204,
+     "losses": []
+    },
+    "Sarvam-30B/105B": {
+     "wins": 192,
+     "losses": [
+      "ben_Beng",
+      "deu_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "ita_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "sat_Olck",
+      "spa_Latn",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 203,
+     "losses": [
+      "tam_Taml"
+     ]
+    },
+    "Qwen2.5": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 199,
+     "losses": [
+      "jpn_Jpan",
+      "tha_Thai",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  },
+  "v4-512k": {
+   "english_vs_gpt4o": 0.8264,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 203,
+     "losses": [
+      "deu_Latn"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 204,
+     "losses": []
+    },
+    "Sarvam-30B/105B": {
+     "wins": 199,
+     "losses": [
+      "deu_Latn",
+      "rus_Cyrl",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 204,
+     "losses": []
+    },
+    "Qwen2.5": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 200,
+     "losses": [
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  }
+ }
+}

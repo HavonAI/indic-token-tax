@@ -1,0 +1,167 @@
+{
+ "split": "devtest",
+ "languages": 204,
+ "candidates": {
+  "v3-200k": {
+   "english_vs_gpt4o": 1.0941,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 133,
+     "losses": [
+      "acm_Arab",
+      "acq_Arab",
+      "aeb_Arab",
+      "afr_Latn",
+      "ajp_Arab",
+      "als_Latn",
+      "apc_Arab",
+      "arb_Arab",
+      "ars_Arab",
+      "ary_Arab",
+      "arz_Arab",
+      "ast_Latn",
+      "bak_Cyrl",
+      "bel_Cyrl",
+      "bug_Latn",
+      "cat_Latn",
+      "cym_Latn",
+      "dan_Latn",
+      "deu_Latn",
+      "eng_Latn",
+      "epo_Latn",
+      "eus_Latn",
+      "fao_Latn",
+      "fin_Latn",
+      "fra_Latn",
+      "gla_Latn",
+      "gle_Latn",
+      "glg_Latn",
+      "hat_Latn",
+      "heb_Hebr",
+      "hye_Armn",
+      "isl_Latn",
+      "ita_Latn",
+      "jav_Latn",
+      "kat_Geor",
+      "kea_Latn",
+      "khk_Cyrl",
+      "kin_Latn",
+      "kir_Cyrl",
+      "lij_Latn",
+      "lim_Latn",
+      "lmo_Latn",
+      "ltz_Latn",
+      "mlt_Latn",
+      "mri_Latn",
+      "nld_Latn",
+      "nno_Latn",
+      "nob_Latn",
+      "nya_Latn",
+      "oci_Latn",
+      "pap_Latn",
+      "plt_Latn",
+      "pol_Latn",
+      "por_Latn",
+      "ron_Latn",
+      "rus_Cyrl",
+      "smo_Latn",
+      "sna_Latn",
+      "spa_Latn",
+      "sun_Latn",
+      "swe_Latn",
+      "tat_Cyrl",
+      "tgk_Cyrl",
+      "tgl_Latn",
+      "tha_Thai",
+      "tso_Latn",
+      "tuk_Latn",
+      "tur_Latn",
+      "vec_Latn",
+      "ydd_Hebr",
+      "zho_Hans"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 201,
+     "losses": [
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn"
+     ]
+    },
+    "Sarvam-30B/105B": {
+     "wins": 179,
+     "losses": [
+      "afr_Latn",
+      "arb_Arab",
+      "ars_Arab",
+      "arz_Arab",
+      "ast_Latn",
+      "bel_Cyrl",
+      "ben_Beng",
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "hin_Deva",
+      "ind_Latn",
+      "ita_Latn",
+      "nld_Latn",
+      "pes_Arab",
+      "por_Latn",
+      "rus_Cyrl",
+      "sat_Olck",
+      "spa_Latn",
+      "ukr_Cyrl",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant",
+      "zsm_Latn"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 196,
+     "losses": [
+      "ben_Beng",
+      "guj_Gujr",
+      "hin_Deva",
+      "kan_Knda",
+      "mar_Deva",
+      "pan_Guru",
+      "tam_Taml",
+      "tel_Telu"
+     ]
+    },
+    "Qwen2.5": {
+     "wins": 197,
+     "losses": [
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 192,
+     "losses": [
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "ita_Latn",
+      "jpn_Jpan",
+      "por_Latn",
+      "rus_Cyrl",
+      "spa_Latn",
+      "tha_Thai",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "split": "dev",
+ "languages": 204,
+ "candidates": {
+  "v3.1": {
+   "english_vs_gpt4o": 1.0559,
+   "beats": {
+    "GPT-4o (o200k_base)": {
+     "wins": 162,
+     "losses": [
+      "acm_Arab",
+      "acq_Arab",
+      "afr_Latn",
+      "arb_Arab",
+      "ars_Arab",
+      "ast_Latn",
+      "bak_Cyrl",
+      "bel_Cyrl",
+      "cym_Latn",
+      "deu_Latn",
+      "eng_Latn",
+      "epo_Latn",
+      "eus_Latn",
+      "fao_Latn",
+      "fra_Latn",
+      "gla_Latn",
+      "gle_Latn",
+      "glg_Latn",
+      "hat_Latn",
+      "isl_Latn",
+      "ita_Latn",
+      "jav_Latn",
+      "khk_Cyrl",
+      "kir_Cyrl",
+      "lim_Latn",
+      "ltz_Latn",
+      "mlt_Latn",
+      "mri_Latn",
+      "nld_Latn",
+      "oci_Latn",
+      "plt_Latn",
+      "por_Latn",
+      "rus_Cyrl",
+      "smo_Latn",
+      "sna_Latn",
+      "spa_Latn",
+      "sun_Latn",
+      "tgk_Cyrl",
+      "tso_Latn",
+      "tuk_Latn",
+      "ydd_Hebr",
+      "zho_Hans"
+     ]
+    },
+    "GPT-4 (cl100k_base)": {
+     "wins": 203,
+     "losses": [
+      "eng_Latn"
+     ]
+    },
+    "Sarvam-30B/105B": {
+     "wins": 183,
+     "losses": [
+      "ast_Latn",
+      "bel_Cyrl",
+      "ben_Beng",
+      "deu_Latn",
+      "eng_Latn",
+      "fra_Latn",
+      "glg_Latn",
+      "hin_Deva",
+      "ind_Latn",
+      "ita_Latn",
+      "ory_Orya",
+      "pan_Guru",
+      "por_Latn",
+      "rus_Cyrl",
+      "sat_Olck",
+      "spa_Latn",
+      "tam_Taml",
+      "tel_Telu",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "Sarvam-1": {
+     "wins": 195,
+     "losses": [
+      "ben_Beng",
+      "guj_Gujr",
+      "hin_Deva",
+      "kan_Knda",
+      "mal_Mlym",
+      "mar_Deva",
+      "pan_Guru",
+      "tam_Taml",
+      "tel_Telu"
+     ]
+    },
+    "Qwen2.5": {
+     "wins": 199,
+     "losses": [
+      "eng_Latn",
+      "jpn_Jpan",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    },
+    "DeepSeek-V3": {
+     "wins": 198,
+     "losses": [
+      "eng_Latn",
+      "jpn_Jpan",
+      "tha_Thai",
+      "yue_Hant",
+      "zho_Hans",
+      "zho_Hant"
+     ]
+    }
+   }
+  }
+ }
+}
