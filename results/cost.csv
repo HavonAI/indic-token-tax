@@ -1,0 +1,190 @@
+model,tokenizer,lang,language,parity,price_in_per_1M,price_out_per_1M,currency,inr_per_month,extra_inr_vs_english
+GPT-4o,GPT-4o (o200k_base),asm_Beng,Assamese,2.0028,2.5,10.0,USD,113438.11,56798.35
+GPT-4o,GPT-4o (o200k_base),awa_Deva,Awadhi,1.7076,2.5,10.0,USD,96718.05,40078.29
+GPT-4o,GPT-4o (o200k_base),ben_Beng,Bengali,1.7183,2.5,10.0,USD,97324.1,40684.34
+GPT-4o,GPT-4o (o200k_base),bho_Deva,Bhojpuri,1.7676,2.5,10.0,USD,100116.44,43476.68
+GPT-4o,GPT-4o (o200k_base),guj_Gujr,Gujarati,1.7901,2.5,10.0,USD,101390.83,44751.07
+GPT-4o,GPT-4o (o200k_base),hin_Deva,Hindi,1.5739,2.5,10.0,USD,89145.32,32505.56
+GPT-4o,GPT-4o (o200k_base),hne_Deva,Chhattisgarhi,1.7383,2.5,10.0,USD,98456.89,41817.13
+GPT-4o,GPT-4o (o200k_base),kan_Knda,Kannada,1.9834,2.5,10.0,USD,112339.3,55699.54
+GPT-4o,GPT-4o (o200k_base),kas_Arab,Kashmiri (Arabic),2.5796,2.5,10.0,USD,146107.92,89468.16
+GPT-4o,GPT-4o (o200k_base),kas_Deva,Kashmiri (Devanagari),2.2016,2.5,10.0,USD,124698.1,68058.34
+GPT-4o,GPT-4o (o200k_base),lus_Latn,Mizo,1.8072,2.5,10.0,USD,102359.37,45719.61
+GPT-4o,GPT-4o (o200k_base),mag_Deva,Magahi,1.7125,2.5,10.0,USD,96995.59,40355.83
+GPT-4o,GPT-4o (o200k_base),mai_Deva,Maithili,1.7556,2.5,10.0,USD,99436.76,42797.0
+GPT-4o,GPT-4o (o200k_base),mal_Mlym,Malayalam,1.9543,2.5,10.0,USD,110691.08,54051.32
+GPT-4o,GPT-4o (o200k_base),mar_Deva,Marathi,1.8155,2.5,10.0,USD,102829.48,46189.72
+GPT-4o,GPT-4o (o200k_base),mni_Beng,Meitei (Bengali),3.0746,2.5,10.0,USD,174144.61,117504.85
+GPT-4o,GPT-4o (o200k_base),npi_Deva,Nepali,1.6154,2.5,10.0,USD,91495.87,34856.11
+GPT-4o,GPT-4o (o200k_base),ory_Orya,Odia,5.0071,2.5,10.0,USD,283600.94,226961.18
+GPT-4o,GPT-4o (o200k_base),pan_Guru,Punjabi,2.6193,2.5,10.0,USD,148356.52,91716.76
+GPT-4o,GPT-4o (o200k_base),san_Deva,Sanskrit,2.0841,2.5,10.0,USD,118042.92,61403.16
+GPT-4o,GPT-4o (o200k_base),sat_Olck,Santali (Ol Chiki),13.7195,2.5,10.0,USD,777069.19,720429.43
+GPT-4o,GPT-4o (o200k_base),snd_Arab,Sindhi (Arabic),1.7086,2.5,10.0,USD,96774.69,40134.93
+GPT-4o,GPT-4o (o200k_base),tam_Taml,Tamil,1.9776,2.5,10.0,USD,112010.79,55371.03
+GPT-4o,GPT-4o (o200k_base),tel_Telu,Telugu,1.9378,2.5,10.0,USD,109756.53,53116.77
+GPT-4o,GPT-4o (o200k_base),urd_Arab,Urdu,1.659,2.5,10.0,USD,93965.36,37325.6
+GPT-4o,GPT-4o (o200k_base),eng,English,1.0,2.5,10.0,USD,56639.76,0.0
+GPT-4o,GPT-4o (o200k_base),hin_rom,Hinglish (PHINC),1.2819,2.5,10.0,USD,72606.51,15966.75
+GPT-4.1 mini,GPT-4o (o200k_base),asm_Beng,Assamese,2.0028,0.4,1.6,USD,18150.1,9087.74
+GPT-4.1 mini,GPT-4o (o200k_base),awa_Deva,Awadhi,1.7076,0.4,1.6,USD,15474.89,6412.53
+GPT-4.1 mini,GPT-4o (o200k_base),ben_Beng,Bengali,1.7183,0.4,1.6,USD,15571.86,6509.49
+GPT-4.1 mini,GPT-4o (o200k_base),bho_Deva,Bhojpuri,1.7676,0.4,1.6,USD,16018.63,6956.27
+GPT-4.1 mini,GPT-4o (o200k_base),guj_Gujr,Gujarati,1.7901,0.4,1.6,USD,16222.53,7160.17
+GPT-4.1 mini,GPT-4o (o200k_base),hin_Deva,Hindi,1.5739,0.4,1.6,USD,14263.25,5200.89
+GPT-4.1 mini,GPT-4o (o200k_base),hne_Deva,Chhattisgarhi,1.7383,0.4,1.6,USD,15753.1,6690.74
+GPT-4.1 mini,GPT-4o (o200k_base),kan_Knda,Kannada,1.9834,0.4,1.6,USD,17974.29,8911.93
+GPT-4.1 mini,GPT-4o (o200k_base),kas_Arab,Kashmiri (Arabic),2.5796,0.4,1.6,USD,23377.27,14314.91
+GPT-4.1 mini,GPT-4o (o200k_base),kas_Deva,Kashmiri (Devanagari),2.2016,0.4,1.6,USD,19951.7,10889.33
+GPT-4.1 mini,GPT-4o (o200k_base),lus_Latn,Mizo,1.8072,0.4,1.6,USD,16377.5,7315.14
+GPT-4.1 mini,GPT-4o (o200k_base),mag_Deva,Magahi,1.7125,0.4,1.6,USD,15519.29,6456.93
+GPT-4.1 mini,GPT-4o (o200k_base),mai_Deva,Maithili,1.7556,0.4,1.6,USD,15909.88,6847.52
+GPT-4.1 mini,GPT-4o (o200k_base),mal_Mlym,Malayalam,1.9543,0.4,1.6,USD,17710.57,8648.21
+GPT-4.1 mini,GPT-4o (o200k_base),mar_Deva,Marathi,1.8155,0.4,1.6,USD,16452.72,7390.36
+GPT-4.1 mini,GPT-4o (o200k_base),mni_Beng,Meitei (Bengali),3.0746,0.4,1.6,USD,27863.14,18800.78
+GPT-4.1 mini,GPT-4o (o200k_base),npi_Deva,Nepali,1.6154,0.4,1.6,USD,14639.34,5576.98
+GPT-4.1 mini,GPT-4o (o200k_base),ory_Orya,Odia,5.0071,0.4,1.6,USD,45376.15,36313.79
+GPT-4.1 mini,GPT-4o (o200k_base),pan_Guru,Punjabi,2.6193,0.4,1.6,USD,23737.04,14674.68
+GPT-4.1 mini,GPT-4o (o200k_base),san_Deva,Sanskrit,2.0841,0.4,1.6,USD,18886.87,9824.51
+GPT-4.1 mini,GPT-4o (o200k_base),sat_Olck,Santali (Ol Chiki),13.7195,0.4,1.6,USD,124331.07,115268.71
+GPT-4.1 mini,GPT-4o (o200k_base),snd_Arab,Sindhi (Arabic),1.7086,0.4,1.6,USD,15483.95,6421.59
+GPT-4.1 mini,GPT-4o (o200k_base),tam_Taml,Tamil,1.9776,0.4,1.6,USD,17921.73,8859.36
+GPT-4.1 mini,GPT-4o (o200k_base),tel_Telu,Telugu,1.9378,0.4,1.6,USD,17561.04,8498.68
+GPT-4.1 mini,GPT-4o (o200k_base),urd_Arab,Urdu,1.659,0.4,1.6,USD,15034.46,5972.1
+GPT-4.1 mini,GPT-4o (o200k_base),eng,English,1.0,0.4,1.6,USD,9062.36,0.0
+GPT-4.1 mini,GPT-4o (o200k_base),hin_rom,Hinglish (PHINC),1.2819,0.4,1.6,USD,11617.04,2554.68
+GPT-5,GPT-4o (o200k_base),asm_Beng,Assamese,2.0028,1.25,10.0,USD,94531.76,47331.96
+GPT-5,GPT-4o (o200k_base),awa_Deva,Awadhi,1.7076,1.25,10.0,USD,80598.38,33398.58
+GPT-5,GPT-4o (o200k_base),ben_Beng,Bengali,1.7183,1.25,10.0,USD,81103.42,33903.62
+GPT-5,GPT-4o (o200k_base),bho_Deva,Bhojpuri,1.7676,1.25,10.0,USD,83430.37,36230.57
+GPT-5,GPT-4o (o200k_base),guj_Gujr,Gujarati,1.7901,1.25,10.0,USD,84492.36,37292.56
+GPT-5,GPT-4o (o200k_base),hin_Deva,Hindi,1.5739,1.25,10.0,USD,74287.77,27087.97
+GPT-5,GPT-4o (o200k_base),hne_Deva,Chhattisgarhi,1.7383,1.25,10.0,USD,82047.41,34847.61
+GPT-5,GPT-4o (o200k_base),kan_Knda,Kannada,1.9834,1.25,10.0,USD,93616.08,46416.28
+GPT-5,GPT-4o (o200k_base),kas_Arab,Kashmiri (Arabic),2.5796,1.25,10.0,USD,121756.6,74556.8
+GPT-5,GPT-4o (o200k_base),kas_Deva,Kashmiri (Devanagari),2.2016,1.25,10.0,USD,103915.08,56715.28
+GPT-5,GPT-4o (o200k_base),lus_Latn,Mizo,1.8072,1.25,10.0,USD,85299.48,38099.68
+GPT-5,GPT-4o (o200k_base),mag_Deva,Magahi,1.7125,1.25,10.0,USD,80829.66,33629.86
+GPT-5,GPT-4o (o200k_base),mai_Deva,Maithili,1.7556,1.25,10.0,USD,82863.97,35664.17
+GPT-5,GPT-4o (o200k_base),mal_Mlym,Malayalam,1.9543,1.25,10.0,USD,92242.57,45042.77
+GPT-5,GPT-4o (o200k_base),mar_Deva,Marathi,1.8155,1.25,10.0,USD,85691.24,38491.44
+GPT-5,GPT-4o (o200k_base),mni_Beng,Meitei (Bengali),3.0746,1.25,10.0,USD,145120.51,97920.71
+GPT-5,GPT-4o (o200k_base),npi_Deva,Nepali,1.6154,1.25,10.0,USD,76246.56,29046.76
+GPT-5,GPT-4o (o200k_base),ory_Orya,Odia,5.0071,1.25,10.0,USD,236334.12,189134.32
+GPT-5,GPT-4o (o200k_base),pan_Guru,Punjabi,2.6193,1.25,10.0,USD,123630.44,76430.64
+GPT-5,GPT-4o (o200k_base),san_Deva,Sanskrit,2.0841,1.25,10.0,USD,98369.1,51169.3
+GPT-5,GPT-4o (o200k_base),sat_Olck,Santali (Ol Chiki),13.7195,1.25,10.0,USD,647557.66,600357.86
+GPT-5,GPT-4o (o200k_base),snd_Arab,Sindhi (Arabic),1.7086,1.25,10.0,USD,80645.58,33445.78
+GPT-5,GPT-4o (o200k_base),tam_Taml,Tamil,1.9776,1.25,10.0,USD,93342.32,46142.52
+GPT-5,GPT-4o (o200k_base),tel_Telu,Telugu,1.9378,1.25,10.0,USD,91463.77,44263.97
+GPT-5,GPT-4o (o200k_base),urd_Arab,Urdu,1.659,1.25,10.0,USD,78304.47,31104.67
+GPT-5,GPT-4o (o200k_base),eng,English,1.0,1.25,10.0,USD,47199.8,0.0
+GPT-5,GPT-4o (o200k_base),hin_rom,Hinglish (PHINC),1.2819,1.25,10.0,USD,60505.42,13305.62
+GPT-5 mini,GPT-4o (o200k_base),asm_Beng,Assamese,2.0028,0.25,2.0,USD,18906.35,9466.39
+GPT-5 mini,GPT-4o (o200k_base),awa_Deva,Awadhi,1.7076,0.25,2.0,USD,16119.68,6679.72
+GPT-5 mini,GPT-4o (o200k_base),ben_Beng,Bengali,1.7183,0.25,2.0,USD,16220.68,6780.72
+GPT-5 mini,GPT-4o (o200k_base),bho_Deva,Bhojpuri,1.7676,0.25,2.0,USD,16686.07,7246.11
+GPT-5 mini,GPT-4o (o200k_base),guj_Gujr,Gujarati,1.7901,0.25,2.0,USD,16898.47,7458.51
+GPT-5 mini,GPT-4o (o200k_base),hin_Deva,Hindi,1.5739,0.25,2.0,USD,14857.55,5417.59
+GPT-5 mini,GPT-4o (o200k_base),hne_Deva,Chhattisgarhi,1.7383,0.25,2.0,USD,16409.48,6969.52
+GPT-5 mini,GPT-4o (o200k_base),kan_Knda,Kannada,1.9834,0.25,2.0,USD,18723.22,9283.26
+GPT-5 mini,GPT-4o (o200k_base),kas_Arab,Kashmiri (Arabic),2.5796,0.25,2.0,USD,24351.32,14911.36
+GPT-5 mini,GPT-4o (o200k_base),kas_Deva,Kashmiri (Devanagari),2.2016,0.25,2.0,USD,20783.02,11343.06
+GPT-5 mini,GPT-4o (o200k_base),lus_Latn,Mizo,1.8072,0.25,2.0,USD,17059.9,7619.94
+GPT-5 mini,GPT-4o (o200k_base),mag_Deva,Magahi,1.7125,0.25,2.0,USD,16165.93,6725.97
+GPT-5 mini,GPT-4o (o200k_base),mai_Deva,Maithili,1.7556,0.25,2.0,USD,16572.79,7132.83
+GPT-5 mini,GPT-4o (o200k_base),mal_Mlym,Malayalam,1.9543,0.25,2.0,USD,18448.51,9008.55
+GPT-5 mini,GPT-4o (o200k_base),mar_Deva,Marathi,1.8155,0.25,2.0,USD,17138.25,7698.29
+GPT-5 mini,GPT-4o (o200k_base),mni_Beng,Meitei (Bengali),3.0746,0.25,2.0,USD,29024.1,19584.14
+GPT-5 mini,GPT-4o (o200k_base),npi_Deva,Nepali,1.6154,0.25,2.0,USD,15249.31,5809.35
+GPT-5 mini,GPT-4o (o200k_base),ory_Orya,Odia,5.0071,0.25,2.0,USD,47266.82,37826.86
+GPT-5 mini,GPT-4o (o200k_base),pan_Guru,Punjabi,2.6193,0.25,2.0,USD,24726.09,15286.13
+GPT-5 mini,GPT-4o (o200k_base),san_Deva,Sanskrit,2.0841,0.25,2.0,USD,19673.82,10233.86
+GPT-5 mini,GPT-4o (o200k_base),sat_Olck,Santali (Ol Chiki),13.7195,0.25,2.0,USD,129511.53,120071.57
+GPT-5 mini,GPT-4o (o200k_base),snd_Arab,Sindhi (Arabic),1.7086,0.25,2.0,USD,16129.12,6689.16
+GPT-5 mini,GPT-4o (o200k_base),tam_Taml,Tamil,1.9776,0.25,2.0,USD,18668.46,9228.5
+GPT-5 mini,GPT-4o (o200k_base),tel_Telu,Telugu,1.9378,0.25,2.0,USD,18292.75,8852.79
+GPT-5 mini,GPT-4o (o200k_base),urd_Arab,Urdu,1.659,0.25,2.0,USD,15660.89,6220.93
+GPT-5 mini,GPT-4o (o200k_base),eng,English,1.0,0.25,2.0,USD,9439.96,0.0
+GPT-5 mini,GPT-4o (o200k_base),hin_rom,Hinglish (PHINC),1.2819,0.25,2.0,USD,12101.08,2661.12
+DeepSeek deepseek-flash,DeepSeek-V3,asm_Beng,Assamese,2.703,0.3,1.2,USD,18371.67,11574.9
+DeepSeek deepseek-flash,DeepSeek-V3,awa_Deva,Awadhi,2.9064,0.3,1.2,USD,19754.14,12957.36
+DeepSeek deepseek-flash,DeepSeek-V3,ben_Beng,Bengali,2.0252,0.3,1.2,USD,13764.82,6968.05
+DeepSeek deepseek-flash,DeepSeek-V3,bho_Deva,Bhojpuri,2.8988,0.3,1.2,USD,19702.48,12905.71
+DeepSeek deepseek-flash,DeepSeek-V3,guj_Gujr,Gujarati,3.8689,0.3,1.2,USD,26296.03,19499.26
+DeepSeek deepseek-flash,DeepSeek-V3,hin_Deva,Hindi,2.8051,0.3,1.2,USD,19065.62,12268.85
+DeepSeek deepseek-flash,DeepSeek-V3,hne_Deva,Chhattisgarhi,2.9204,0.3,1.2,USD,19849.29,13052.52
+DeepSeek deepseek-flash,DeepSeek-V3,kan_Knda,Kannada,3.706,0.3,1.2,USD,25188.83,18392.06
+DeepSeek deepseek-flash,DeepSeek-V3,kas_Arab,Kashmiri (Arabic),3.0182,0.3,1.2,USD,20514.01,13717.24
+DeepSeek deepseek-flash,DeepSeek-V3,kas_Deva,Kashmiri (Devanagari),3.1264,0.3,1.2,USD,21249.43,14452.65
+DeepSeek deepseek-flash,DeepSeek-V3,lus_Latn,Mizo,1.9458,0.3,1.2,USD,13225.16,6428.39
+DeepSeek deepseek-flash,DeepSeek-V3,mag_Deva,Magahi,2.8878,0.3,1.2,USD,19627.72,12830.94
+DeepSeek deepseek-flash,DeepSeek-V3,mai_Deva,Maithili,3.1219,0.3,1.2,USD,21218.84,14422.07
+DeepSeek deepseek-flash,DeepSeek-V3,mal_Mlym,Malayalam,4.414,0.3,1.2,USD,30000.95,23204.18
+DeepSeek deepseek-flash,DeepSeek-V3,mar_Deva,Marathi,2.999,0.3,1.2,USD,20383.52,13586.75
+DeepSeek deepseek-flash,DeepSeek-V3,mni_Beng,Meitei (Bengali),3.2701,0.3,1.2,USD,22226.12,15429.35
+DeepSeek deepseek-flash,DeepSeek-V3,npi_Deva,Nepali,2.9771,0.3,1.2,USD,20234.67,13437.9
+DeepSeek deepseek-flash,DeepSeek-V3,ory_Orya,Odia,5.5775,0.3,1.2,USD,37908.99,31112.22
+DeepSeek deepseek-flash,DeepSeek-V3,pan_Guru,Punjabi,4.4849,0.3,1.2,USD,30482.84,23686.07
+DeepSeek deepseek-flash,DeepSeek-V3,san_Deva,Sanskrit,2.8711,0.3,1.2,USD,19514.21,12717.44
+DeepSeek deepseek-flash,DeepSeek-V3,sat_Olck,Santali (Ol Chiki),6.4368,0.3,1.2,USD,43749.46,36952.69
+DeepSeek deepseek-flash,DeepSeek-V3,snd_Arab,Sindhi (Arabic),2.8882,0.3,1.2,USD,19630.43,12833.66
+DeepSeek deepseek-flash,DeepSeek-V3,tam_Taml,Tamil,3.0677,0.3,1.2,USD,20850.46,14053.68
+DeepSeek deepseek-flash,DeepSeek-V3,tel_Telu,Telugu,3.771,0.3,1.2,USD,25630.62,18833.85
+DeepSeek deepseek-flash,DeepSeek-V3,urd_Arab,Urdu,2.3744,0.3,1.2,USD,16138.25,9341.48
+DeepSeek deepseek-flash,DeepSeek-V3,eng,English,1.0,0.3,1.2,USD,6796.77,0.0
+DeepSeek deepseek-flash,DeepSeek-V3,hin_rom,Hinglish (PHINC),1.3445,0.3,1.2,USD,9138.26,2341.49
+DeepSeek deepseek-v4-pro,DeepSeek-V3,asm_Beng,Assamese,2.703,1.32,3.96,USD,67362.8,42441.3
+DeepSeek deepseek-v4-pro,DeepSeek-V3,awa_Deva,Awadhi,2.9064,1.32,3.96,USD,72431.83,47510.34
+DeepSeek deepseek-v4-pro,DeepSeek-V3,ben_Beng,Bengali,2.0252,1.32,3.96,USD,50471.01,25549.52
+DeepSeek deepseek-v4-pro,DeepSeek-V3,bho_Deva,Bhojpuri,2.8988,1.32,3.96,USD,72242.43,47320.93
+DeepSeek deepseek-v4-pro,DeepSeek-V3,guj_Gujr,Gujarati,3.8689,1.32,3.96,USD,96418.77,71497.28
+DeepSeek deepseek-v4-pro,DeepSeek-V3,hin_Deva,Hindi,2.8051,1.32,3.96,USD,69907.28,44985.79
+DeepSeek deepseek-v4-pro,DeepSeek-V3,hne_Deva,Chhattisgarhi,2.9204,1.32,3.96,USD,72780.73,47859.24
+DeepSeek deepseek-v4-pro,DeepSeek-V3,kan_Knda,Kannada,3.706,1.32,3.96,USD,92359.06,67437.56
+DeepSeek deepseek-v4-pro,DeepSeek-V3,kas_Arab,Kashmiri (Arabic),3.0182,1.32,3.96,USD,75218.05,50296.56
+DeepSeek deepseek-v4-pro,DeepSeek-V3,kas_Deva,Kashmiri (Devanagari),3.1264,1.32,3.96,USD,77914.56,52993.07
+DeepSeek deepseek-v4-pro,DeepSeek-V3,lus_Latn,Mizo,1.9458,1.32,3.96,USD,48492.24,23570.75
+DeepSeek deepseek-v4-pro,DeepSeek-V3,mag_Deva,Magahi,2.8878,1.32,3.96,USD,71968.29,47046.8
+DeepSeek deepseek-v4-pro,DeepSeek-V3,mai_Deva,Maithili,3.1219,1.32,3.96,USD,77802.41,52880.92
+DeepSeek deepseek-v4-pro,DeepSeek-V3,mal_Mlym,Malayalam,4.414,1.32,3.96,USD,110003.48,85081.98
+DeepSeek deepseek-v4-pro,DeepSeek-V3,mar_Deva,Marathi,2.999,1.32,3.96,USD,74739.56,49818.07
+DeepSeek deepseek-v4-pro,DeepSeek-V3,mni_Beng,Meitei (Bengali),3.2701,1.32,3.96,USD,81495.78,56574.28
+DeepSeek deepseek-v4-pro,DeepSeek-V3,npi_Deva,Nepali,2.9771,1.32,3.96,USD,74193.78,49272.29
+DeepSeek deepseek-v4-pro,DeepSeek-V3,ory_Orya,Odia,5.5775,1.32,3.96,USD,138999.64,114078.14
+DeepSeek deepseek-v4-pro,DeepSeek-V3,pan_Guru,Punjabi,4.4849,1.32,3.96,USD,111770.41,86848.92
+DeepSeek deepseek-v4-pro,DeepSeek-V3,san_Deva,Sanskrit,2.8711,1.32,3.96,USD,71552.1,46630.61
+DeepSeek deepseek-v4-pro,DeepSeek-V3,sat_Olck,Santali (Ol Chiki),6.4368,1.32,3.96,USD,160414.68,135493.18
+DeepSeek deepseek-v4-pro,DeepSeek-V3,snd_Arab,Sindhi (Arabic),2.8882,1.32,3.96,USD,71978.26,47056.77
+DeepSeek deepseek-v4-pro,DeepSeek-V3,tam_Taml,Tamil,3.0677,1.32,3.96,USD,76451.67,51530.17
+DeepSeek deepseek-v4-pro,DeepSeek-V3,tel_Telu,Telugu,3.771,1.32,3.96,USD,93978.96,69057.46
+DeepSeek deepseek-v4-pro,DeepSeek-V3,urd_Arab,Urdu,2.3744,1.32,3.96,USD,59173.6,34252.1
+DeepSeek deepseek-v4-pro,DeepSeek-V3,eng,English,1.0,1.32,3.96,USD,24921.49,0.0
+DeepSeek deepseek-v4-pro,DeepSeek-V3,hin_rom,Hinglish (PHINC),1.3445,1.32,3.96,USD,33506.95,8585.45
+Sarvam 105B (Sarvam API),Sarvam-105B,asm_Beng,Assamese,2.0068,15.0,60.0,INR,7224.48,3624.48
+Sarvam 105B (Sarvam API),Sarvam-105B,awa_Deva,Awadhi,1.4701,15.0,60.0,INR,5292.36,1692.36
+Sarvam 105B (Sarvam API),Sarvam-105B,ben_Beng,Bengali,1.2127,15.0,60.0,INR,4365.72,765.72
+Sarvam 105B (Sarvam API),Sarvam-105B,bho_Deva,Bhojpuri,1.5657,15.0,60.0,INR,5636.52,2036.52
+Sarvam 105B (Sarvam API),Sarvam-105B,guj_Gujr,Gujarati,1.4948,15.0,60.0,INR,5381.28,1781.28
+Sarvam 105B (Sarvam API),Sarvam-105B,hin_Deva,Hindi,1.312,15.0,60.0,INR,4723.2,1123.2
+Sarvam 105B (Sarvam API),Sarvam-105B,hne_Deva,Chhattisgarhi,1.4956,15.0,60.0,INR,5384.16,1784.16
+Sarvam 105B (Sarvam API),Sarvam-105B,kan_Knda,Kannada,1.5196,15.0,60.0,INR,5470.56,1870.56
+Sarvam 105B (Sarvam API),Sarvam-105B,kas_Arab,Kashmiri (Arabic),2.3329,15.0,60.0,INR,8398.44,4798.44
+Sarvam 105B (Sarvam API),Sarvam-105B,kas_Deva,Kashmiri (Devanagari),1.9277,15.0,60.0,INR,6939.72,3339.72
+Sarvam 105B (Sarvam API),Sarvam-105B,lus_Latn,Mizo,1.784,15.0,60.0,INR,6422.4,2822.4
+Sarvam 105B (Sarvam API),Sarvam-105B,mag_Deva,Magahi,1.4739,15.0,60.0,INR,5306.04,1706.04
+Sarvam 105B (Sarvam API),Sarvam-105B,mai_Deva,Maithili,1.638,15.0,60.0,INR,5896.8,2296.8
+Sarvam 105B (Sarvam API),Sarvam-105B,mal_Mlym,Malayalam,1.6225,15.0,60.0,INR,5841.0,2241.0
+Sarvam 105B (Sarvam API),Sarvam-105B,mar_Deva,Marathi,1.3922,15.0,60.0,INR,5011.92,1411.92
+Sarvam 105B (Sarvam API),Sarvam-105B,mni_Beng,Meitei (Bengali),2.5021,15.0,60.0,INR,9007.56,5407.56
+Sarvam 105B (Sarvam API),Sarvam-105B,npi_Deva,Nepali,1.5289,15.0,60.0,INR,5504.04,1904.04
+Sarvam 105B (Sarvam API),Sarvam-105B,ory_Orya,Odia,1.4263,15.0,60.0,INR,5134.68,1534.68
+Sarvam 105B (Sarvam API),Sarvam-105B,pan_Guru,Punjabi,1.5434,15.0,60.0,INR,5556.24,1956.24
+Sarvam 105B (Sarvam API),Sarvam-105B,san_Deva,Sanskrit,1.7675,15.0,60.0,INR,6363.0,2763.0
+Sarvam 105B (Sarvam API),Sarvam-105B,sat_Olck,Santali (Ol Chiki),1.8138,15.0,60.0,INR,6529.68,2929.68
+Sarvam 105B (Sarvam API),Sarvam-105B,snd_Arab,Sindhi (Arabic),2.0181,15.0,60.0,INR,7265.16,3665.16
+Sarvam 105B (Sarvam API),Sarvam-105B,tam_Taml,Tamil,1.4683,15.0,60.0,INR,5285.88,1685.88
+Sarvam 105B (Sarvam API),Sarvam-105B,tel_Telu,Telugu,1.4572,15.0,60.0,INR,5245.92,1645.92
+Sarvam 105B (Sarvam API),Sarvam-105B,urd_Arab,Urdu,1.5262,15.0,60.0,INR,5494.32,1894.32
+Sarvam 105B (Sarvam API),Sarvam-105B,eng,English,1.0,15.0,60.0,INR,3600.0,0.0
+Sarvam 105B (Sarvam API),Sarvam-105B,hin_rom,Hinglish (PHINC),1.1985,15.0,60.0,INR,4314.6,714.6

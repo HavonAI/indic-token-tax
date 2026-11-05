@@ -1,0 +1,5 @@
+# Keep tokenizer and result files byte-identical on every OS (hashes are published in the paper)
+tokenizers/** -text
+results/** -text
+*.csv -text
+*.json -text

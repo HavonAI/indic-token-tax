@@ -1,0 +1,26 @@
+{
+  "gold": {
+    "hin": {
+      "file": "hf://datasets/karthika95/morphTok@25d11d41b0428bbe4c9b2a7d4f9de92351709364/hindi.csv",
+      "sha256": "21b1a0c219ad80bcf112fee0172aeab0e7102662cb49f79e3c8c8a274902819d",
+      "rows": 72257,
+      "dropped_non_concatenative": 10491,
+      "dropped_conflicting": 1045,
+      "words_used": 59676,
+      "words_with_boundary": 43487,
+      "gold_boundaries": 46144
+    },
+    "mar": {
+      "file": "hf://datasets/karthika95/morphTok@25d11d41b0428bbe4c9b2a7d4f9de92351709364/marathi.csv",
+      "sha256": "ef31d6e245a016993ff0e05e5485ae5c352d8e4904de25c73a0b921b5644d669",
+      "rows": 61736,
+      "dropped_non_concatenative": 19348,
+      "dropped_conflicting": 48,
+      "words_used": 42292,
+      "words_with_boundary": 39083,
+      "gold_boundaries": 39083
+    }
+  },
+  "license": "CC-BY-4.0",
+  "citation": "Brahma et al., arXiv:2504.10335"
+}

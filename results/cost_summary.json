@@ -1,0 +1,192 @@
+{
+  "accessed": "2026-11-05",
+  "usd_inr": 94.3996,
+  "fx_source": "https://www.rbi.org.in/ (Exchange Rates panel, 'Source: FBIL', as at 1.00pm of November 05, 2026)",
+  "assumptions": {
+    "chats_per_month": 100000,
+    "english_input_tokens_per_chat": 800,
+    "english_output_tokens_per_chat": 400,
+    "rule": "cost(L) = cost(English) x parity(L), applied to input and output",
+    "excludes": "system prompts, chat templates, caching, batch and off-peak discounts, taxes"
+  },
+  "prices": {
+    "GPT-4o": {
+      "tokenizer": "GPT-4o (o200k_base)",
+      "currency": "USD",
+      "input_per_1M": 2.5,
+      "output_per_1M": 10.0,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "note": "standard tier"
+    },
+    "GPT-4.1 mini": {
+      "tokenizer": "GPT-4o (o200k_base)",
+      "currency": "USD",
+      "input_per_1M": 0.4,
+      "output_per_1M": 1.6,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "note": "standard tier"
+    },
+    "GPT-5": {
+      "tokenizer": "GPT-4o (o200k_base)",
+      "currency": "USD",
+      "input_per_1M": 1.25,
+      "output_per_1M": 10.0,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "note": "standard tier"
+    },
+    "GPT-5 mini": {
+      "tokenizer": "GPT-4o (o200k_base)",
+      "currency": "USD",
+      "input_per_1M": 0.25,
+      "output_per_1M": 2.0,
+      "source": "https://developers.openai.com/api/docs/pricing",
+      "note": "standard tier"
+    },
+    "DeepSeek deepseek-flash": {
+      "tokenizer": "DeepSeek-V3",
+      "currency": "USD",
+      "input_per_1M": 0.3,
+      "output_per_1M": 1.2,
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "note": "DeepSeek-V4.1-Flash-1017, peak-hour cache-miss rate (off-peak is half)"
+    },
+    "DeepSeek deepseek-v4-pro": {
+      "tokenizer": "DeepSeek-V3",
+      "currency": "USD",
+      "input_per_1M": 1.32,
+      "output_per_1M": 3.96,
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "note": "DeepSeek-V4-Pro-0813, peak-hour cache-miss rate (off-peak is half)"
+    },
+    "Sarvam 105B (Sarvam API)": {
+      "tokenizer": "Sarvam-105B",
+      "currency": "INR",
+      "input_per_1M": 15.0,
+      "output_per_1M": 60.0,
+      "source": "https://www.sarvam.ai/api-pricing",
+      "note": "per 1M tokens, INR"
+    }
+  },
+  "tokenizer_checks": {
+    "openai": "tiktoken 0.12.0 encoding_name_for_model -> o200k_base for gpt-4o, gpt-4.1-mini, gpt-5, gpt-5-mini",
+    "deepseek": {
+      "deepseek-ai/DeepSeek-V4.1-Flash-1017@1bae0e1088993b9b82de08f59de5be5a34e42170": "vocab, merges, normalizer and pre-tokenizer identical to DeepSeek-V3",
+      "deepseek-ai/DeepSeek-V4-Pro-0813@72e1d3230f6c080a530b0a1d46f8eb4602340597": "vocab, merges, normalizer and pre-tokenizer identical to DeepSeek-V3"
+    },
+    "sarvam": "assumed: Sarvam API 'Sarvam 105B' uses the tokenizer of sarvamai/sarvam-105b at the pinned revision (not verified)"
+  },
+  "inr_per_month": {
+    "GPT-4o": {
+      "asm_Beng": 113438.11,
+      "ben_Beng": 97324.1,
+      "guj_Gujr": 101390.83,
+      "hin_Deva": 89145.32,
+      "kan_Knda": 112339.3,
+      "mal_Mlym": 110691.08,
+      "mar_Deva": 102829.48,
+      "ory_Orya": 283600.94,
+      "pan_Guru": 148356.52,
+      "tam_Taml": 112010.79,
+      "tel_Telu": 109756.53,
+      "urd_Arab": 93965.36,
+      "eng": 56639.76,
+      "hin_rom": 72606.51
+    },
+    "GPT-4.1 mini": {
+      "asm_Beng": 18150.1,
+      "ben_Beng": 15571.86,
+      "guj_Gujr": 16222.53,
+      "hin_Deva": 14263.25,
+      "kan_Knda": 17974.29,
+      "mal_Mlym": 17710.57,
+      "mar_Deva": 16452.72,
+      "ory_Orya": 45376.15,
+      "pan_Guru": 23737.04,
+      "tam_Taml": 17921.73,
+      "tel_Telu": 17561.04,
+      "urd_Arab": 15034.46,
+      "eng": 9062.36,
+      "hin_rom": 11617.04
+    },
+    "GPT-5": {
+      "asm_Beng": 94531.76,
+      "ben_Beng": 81103.42,
+      "guj_Gujr": 84492.36,
+      "hin_Deva": 74287.77,
+      "kan_Knda": 93616.08,
+      "mal_Mlym": 92242.57,
+      "mar_Deva": 85691.24,
+      "ory_Orya": 236334.12,
+      "pan_Guru": 123630.44,
+      "tam_Taml": 93342.32,
+      "tel_Telu": 91463.77,
+      "urd_Arab": 78304.47,
+      "eng": 47199.8,
+      "hin_rom": 60505.42
+    },
+    "GPT-5 mini": {
+      "asm_Beng": 18906.35,
+      "ben_Beng": 16220.68,
+      "guj_Gujr": 16898.47,
+      "hin_Deva": 14857.55,
+      "kan_Knda": 18723.22,
+      "mal_Mlym": 18448.51,
+      "mar_Deva": 17138.25,
+      "ory_Orya": 47266.82,
+      "pan_Guru": 24726.09,
+      "tam_Taml": 18668.46,
+      "tel_Telu": 18292.75,
+      "urd_Arab": 15660.89,
+      "eng": 9439.96,
+      "hin_rom": 12101.08
+    },
+    "DeepSeek deepseek-flash": {
+      "asm_Beng": 18371.67,
+      "ben_Beng": 13764.82,
+      "guj_Gujr": 26296.03,
+      "hin_Deva": 19065.62,
+      "kan_Knda": 25188.83,
+      "mal_Mlym": 30000.95,
+      "mar_Deva": 20383.52,
+      "ory_Orya": 37908.99,
+      "pan_Guru": 30482.84,
+      "tam_Taml": 20850.46,
+      "tel_Telu": 25630.62,
+      "urd_Arab": 16138.25,
+      "eng": 6796.77,
+      "hin_rom": 9138.26
+    },
+    "DeepSeek deepseek-v4-pro": {
+      "asm_Beng": 67362.8,
+      "ben_Beng": 50471.01,
+      "guj_Gujr": 96418.77,
+      "hin_Deva": 69907.28,
+      "kan_Knda": 92359.06,
+      "mal_Mlym": 110003.48,
+      "mar_Deva": 74739.56,
+      "ory_Orya": 138999.64,
+      "pan_Guru": 111770.41,
+      "tam_Taml": 76451.67,
+      "tel_Telu": 93978.96,
+      "urd_Arab": 59173.6,
+      "eng": 24921.49,
+      "hin_rom": 33506.95
+    },
+    "Sarvam 105B (Sarvam API)": {
+      "asm_Beng": 7224.48,
+      "ben_Beng": 4365.72,
+      "guj_Gujr": 5381.28,
+      "hin_Deva": 4723.2,
+      "kan_Knda": 5470.56,
+      "mal_Mlym": 5841.0,
+      "mar_Deva": 5011.92,
+      "ory_Orya": 5134.68,
+      "pan_Guru": 5556.24,
+      "tam_Taml": 5285.88,
+      "tel_Telu": 5245.92,
+      "urd_Arab": 5494.32,
+      "eng": 3600.0,
+      "hin_rom": 4314.6
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+ "reference": {
+  "repo": "deepseek-ai/DeepSeek-V3",
+  "revision": "e815299b0bcbac849fa540c768ef21845365c9eb",
+  "file_sha256": "621ac2e32d0dba658404412318818aaa8ce8cda492e59830109d8da6b517fb41",
+  "components": {
+   "normalizer": "a044f671002c0869f899164eb3a4421aefd81030544d01e20004334aa0589b50",
+   "pre_tokenizer": "eb5c348de6004a90b41ce5f28e968a9f97df0b552cff4086596d610a5e8d68da",
+   "decoder": "7683cdde49e9c12764b893cc778c8c27bcbaf3311ae1c1df7fa01514015f15ae",
+   "post_processor": "c5744370ff1135a1a5989c2c357ea72a495faa276a8a79d05f1a7a927a34afab",
+   "added_tokens": "1a1209eafdcc6e835103505cf64773a887750813539a61bcde59ec724630cbbb",
+   "model.vocab": "830928ddf287cf77815bcf69bb4d8fb01c40277cbe08dd98db7a5e21d2f3b299",
+   "model.merges": "f8cf9567d3d1d51b8acee973015a9b368daaca520387db771b2bd9314940e3e0"
+  }
+ },
+ "sample_sentences": 1400,
+ "sample_languages": [
+  "eng_Latn",
+  "hin_Deva",
+  "mar_Deva",
+  "tam_Taml",
+  "ory_Orya",
+  "sat_Olck",
+  "urd_Arab"
+ ],
+ "candidates": [
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "revision": "314113f8a7dadb388215396ba5fbee2c610a04d6",
+   "file_sha256": "c90dfa01249db1be4245780a052ede752e1361c612ac6d08e2bdada7d599476b",
+   "components": {
+    "normalizer": "a044f671002c0869f899164eb3a4421aefd81030544d01e20004334aa0589b50",
+    "pre_tokenizer": "eb5c348de6004a90b41ce5f28e968a9f97df0b552cff4086596d610a5e8d68da",
+    "decoder": "7683cdde49e9c12764b893cc778c8c27bcbaf3311ae1c1df7fa01514015f15ae",
+    "post_processor": "c5744370ff1135a1a5989c2c357ea72a495faa276a8a79d05f1a7a927a34afab",
+    "added_tokens": "8a1b233d97a4b2b2a514f443f53ee8c6b9d0ef4f43d68e125f6f7b356c5f90fc",
+    "model.vocab": "830928ddf287cf77815bcf69bb4d8fb01c40277cbe08dd98db7a5e21d2f3b299",
+    "model.merges": "f8cf9567d3d1d51b8acee973015a9b368daaca520387db771b2bd9314940e3e0"
+   },
+   "identical_file": false,
+   "identical_components": {
+    "normalizer": true,
+    "pre_tokenizer": true,
+    "decoder": true,
+    "post_processor": true,
+    "added_tokens": false,
+    "model.vocab": true,
+    "model.merges": true
+   },
+   "identical_encodings": 1400
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4-Flash",
+   "revision": "60d8d70770c6776ff598c94bb586a859a38244f1",
+   "file_sha256": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf",
+   "components": {
+    "normalizer": "a044f671002c0869f899164eb3a4421aefd81030544d01e20004334aa0589b50",
+    "pre_tokenizer": "eb5c348de6004a90b41ce5f28e968a9f97df0b552cff4086596d610a5e8d68da",
+    "decoder": "7683cdde49e9c12764b893cc778c8c27bcbaf3311ae1c1df7fa01514015f15ae",
+    "post_processor": "c5744370ff1135a1a5989c2c357ea72a495faa276a8a79d05f1a7a927a34afab",
+    "added_tokens": "280a5c4eead22df17da6eeccfb7e0c928553fe2d7b9370701998fe31d8f54358",
+    "model.vocab": "830928ddf287cf77815bcf69bb4d8fb01c40277cbe08dd98db7a5e21d2f3b299",
+    "model.merges": "f8cf9567d3d1d51b8acee973015a9b368daaca520387db771b2bd9314940e3e0"
+   },
+   "identical_file": false,
+   "identical_components": {
+    "normalizer": true,
+    "pre_tokenizer": true,
+    "decoder": true,
+    "post_processor": true,
+    "added_tokens": false,
+    "model.vocab": true,
+    "model.merges": true
+   },
+   "identical_encodings": 1400
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4-Pro",
+   "revision": "b5968e9190ef611bbf34a7229255be88a0e937c1",
+   "file_sha256": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf",
+   "components": {
+    "normalizer": "a044f671002c0869f899164eb3a4421aefd81030544d01e20004334aa0589b50",
+    "pre_tokenizer": "eb5c348de6004a90b41ce5f28e968a9f97df0b552cff4086596d610a5e8d68da",
+    "decoder": "7683cdde49e9c12764b893cc778c8c27bcbaf3311ae1c1df7fa01514015f15ae",
+    "post_processor": "c5744370ff1135a1a5989c2c357ea72a495faa276a8a79d05f1a7a927a34afab",
+    "added_tokens": "280a5c4eead22df17da6eeccfb7e0c928553fe2d7b9370701998fe31d8f54358",
+    "model.vocab": "830928ddf287cf77815bcf69bb4d8fb01c40277cbe08dd98db7a5e21d2f3b299",
+    "model.merges": "f8cf9567d3d1d51b8acee973015a9b368daaca520387db771b2bd9314940e3e0"
+   },
+   "identical_file": false,
+   "identical_components": {
+    "normalizer": true,
+    "pre_tokenizer": true,
+    "decoder": true,
+    "post_processor": true,
+    "added_tokens": false,
+    "model.vocab": true,
+    "model.merges": true
+   },
+   "identical_encodings": 1400
+  }
+ ]
+}

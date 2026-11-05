@@ -1,0 +1,209 @@
+{
+ "source": "https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar",
+ "md5_b64": "pWCGix1nAmAsTqToN5T6Jg==",
+ "license": "CC BY-SA 4.0",
+ "tokenizers": {
+  "GPT-4o (o200k_base)": {
+   "source": "tiktoken 0.12.0 o200k_base",
+   "vocab": 200019
+  },
+  "GPT-4 (cl100k_base)": {
+   "source": "tiktoken 0.12.0 cl100k_base",
+   "vocab": 100277
+  },
+  "Qwen2.5": {
+   "source": "hf://Qwen/Qwen2.5-7B-Instruct@a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json",
+   "vocab": 151665
+  },
+  "Sarvam-1": {
+   "source": "hf://sarvamai/sarvam-1@e9607337286ddf496d4a2562b194e489dcf3feea/tokenizer.json",
+   "vocab": 68096
+  },
+  "Sarvam-M": {
+   "source": "hf://sarvamai/sarvam-m@01534a53c46f2788e392dbb3d994e0fa8f04d3fd/tokenizer.json",
+   "vocab": 131072
+  },
+  "Sarvam-30B": {
+   "source": "hf://sarvamai/sarvam-30b@071ae95e933605ca1104a6b4524a36a98488efa4/tokenizer.json",
+   "vocab": 262144
+  },
+  "Sarvam-105B": {
+   "source": "hf://sarvamai/sarvam-105b@abe264bdb8fb2244daadaa59ebc2020b3c139e89/tokenizer.json",
+   "vocab": 262144
+  },
+  "Mistral-Nemo": {
+   "source": "hf://mistralai/Mistral-Nemo-Instruct-2407@04d8a90549d23fc6bd7f642064003592df51e9b3/tokenizer.json",
+   "vocab": 131072
+  },
+  "DeepSeek-V3": {
+   "source": "hf://deepseek-ai/DeepSeek-V3@e815299b0bcbac849fa540c768ef21845365c9eb/tokenizer.json",
+   "vocab": 128815
+  },
+  "Havon v1": {
+   "source": "tokenizers/havon_v1/tokenizer.json",
+   "sha256": "d1cf905f328c9c2f9bc1f79bdd303111bb5df3705ef28719c0f430ef125b7474",
+   "vocab": 32768
+  },
+  "Havon v2": {
+   "source": "tokenizers/havon_v2/tokenizer.json",
+   "sha256": "098d13988eb2203bbaf38186180e29a87e804e635179cef4910610eb59f51d47",
+   "vocab": 32768
+  }
+ },
+ "roman_vs_native": {
+  "GPT-4o (o200k_base)": {
+   "bn": 0.9616,
+   "gu": 1.0295,
+   "hi": 1.0803,
+   "kn": 0.9539,
+   "ml": 1.004,
+   "mr": 0.9676,
+   "pa": 0.7011,
+   "sd": 1.0742,
+   "si": 0.7034,
+   "ta": 1.0441,
+   "te": 0.9014,
+   "ur": 1.1028
+  },
+  "GPT-4 (cl100k_base)": {
+   "bn": 0.3195,
+   "gu": 0.284,
+   "hi": 0.4009,
+   "kn": 0.2482,
+   "ml": 0.2546,
+   "mr": 0.3912,
+   "pa": 0.26,
+   "sd": 0.5319,
+   "si": 0.2455,
+   "ta": 0.3148,
+   "te": 0.2473,
+   "ur": 0.4838
+  },
+  "Qwen2.5": {
+   "bn": 0.3738,
+   "gu": 0.3217,
+   "hi": 0.4333,
+   "kn": 0.3161,
+   "ml": 0.3129,
+   "mr": 0.4261,
+   "pa": 0.2822,
+   "sd": 0.7491,
+   "si": 0.308,
+   "ta": 0.3917,
+   "te": 0.2916,
+   "ur": 0.6653
+  },
+  "Sarvam-1": {
+   "bn": 1.6404,
+   "gu": 1.6986,
+   "hi": 1.7648,
+   "kn": 1.7632,
+   "ml": 1.5539,
+   "mr": 1.7464,
+   "pa": 1.5797,
+   "sd": 0.3321,
+   "si": 0.2,
+   "ta": 1.8598,
+   "te": 1.6262,
+   "ur": 0.3034
+  },
+  "Sarvam-M": {
+   "bn": 0.8922,
+   "gu": 0.7571,
+   "hi": 1.0019,
+   "kn": 0.9152,
+   "ml": 0.8275,
+   "mr": 0.8652,
+   "pa": 0.6595,
+   "sd": 0.8285,
+   "si": 0.1659,
+   "ta": 1.0078,
+   "te": 0.842,
+   "ur": 1.1145
+  },
+  "Sarvam-30B": {
+   "bn": 1.3733,
+   "gu": 1.2167,
+   "hi": 1.2345,
+   "kn": 1.2416,
+   "ml": 1.1529,
+   "mr": 1.203,
+   "pa": 1.0905,
+   "sd": 0.9244,
+   "si": 0.1511,
+   "ta": 1.3554,
+   "te": 1.1222,
+   "ur": 1.1599
+  },
+  "Sarvam-105B": {
+   "bn": 1.3733,
+   "gu": 1.2167,
+   "hi": 1.2345,
+   "kn": 1.2416,
+   "ml": 1.1529,
+   "mr": 1.203,
+   "pa": 1.0905,
+   "sd": 0.9244,
+   "si": 0.1511,
+   "ta": 1.3554,
+   "te": 1.1222,
+   "ur": 1.1599
+  },
+  "Mistral-Nemo": {
+   "bn": 0.8922,
+   "gu": 0.7571,
+   "hi": 1.0019,
+   "kn": 0.9152,
+   "ml": 0.8275,
+   "mr": 0.8652,
+   "pa": 0.6595,
+   "sd": 0.8285,
+   "si": 0.1659,
+   "ta": 1.0078,
+   "te": 0.842,
+   "ur": 1.1145
+  },
+  "DeepSeek-V3": {
+   "bn": 0.8826,
+   "gu": 0.5503,
+   "hi": 0.6839,
+   "kn": 0.5802,
+   "ml": 0.5018,
+   "mr": 0.644,
+   "pa": 0.454,
+   "sd": 0.7474,
+   "si": 0.4585,
+   "ta": 0.7653,
+   "te": 0.5365,
+   "ur": 0.875
+  },
+  "Havon v1": {
+   "bn": 0.1962,
+   "gu": 0.2454,
+   "hi": 1.1027,
+   "kn": 0.2015,
+   "ml": 0.1447,
+   "mr": 1.164,
+   "pa": 0.187,
+   "sd": 0.3847,
+   "si": 0.1613,
+   "ta": 0.1552,
+   "te": 0.2018,
+   "ur": 0.2869
+  },
+  "Havon v2": {
+   "bn": 0.1999,
+   "gu": 0.2101,
+   "hi": 1.0968,
+   "kn": 0.2074,
+   "ml": 0.1471,
+   "mr": 1.1558,
+   "pa": 0.1934,
+   "sd": 0.3906,
+   "si": 0.1642,
+   "ta": 0.1585,
+   "te": 0.2069,
+   "ur": 0.2924
+  }
+ }
+}

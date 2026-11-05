@@ -1,0 +1,381 @@
+{
+  "seed": 42,
+  "bootstrap": 1000,
+  "datasets": {
+    "flores200": {
+      "source": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+      "sha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6",
+      "license": "CC-BY-SA-4.0",
+      "splits": {
+        "dev": 997,
+        "devtest": 1012
+      },
+      "indic_codes": [
+        "asm_Beng",
+        "awa_Deva",
+        "ben_Beng",
+        "bho_Deva",
+        "guj_Gujr",
+        "hin_Deva",
+        "hne_Deva",
+        "kan_Knda",
+        "kas_Arab",
+        "kas_Deva",
+        "lus_Latn",
+        "mag_Deva",
+        "mai_Deva",
+        "mal_Mlym",
+        "mar_Deva",
+        "mni_Beng",
+        "npi_Deva",
+        "ory_Orya",
+        "pan_Guru",
+        "san_Deva",
+        "sat_Olck",
+        "snd_Arab",
+        "tam_Taml",
+        "tel_Telu",
+        "urd_Arab"
+      ]
+    },
+    "phinc": {
+      "source": "hf://datasets/LingoIITGN/PHINC@44b5471df75e508b9d6fcdbcc93df04bb1e84056/PHINC.csv",
+      "license": "CC-BY-4.0",
+      "rows_raw": 13738,
+      "pairs_used": 13732
+    },
+    "hingcorpus": {
+      "source": "https://huggingface.co/datasets/hinglish-orthobench/HingCorpus/resolve/9502c071abc72092a45f9d450f5110f60dc5ffef/L3Cube-HingCorpus_roman.tar.gz",
+      "member": "R11_final_data/concatenated_train_final_shuffled.txt",
+      "bytes_fetched": 8388608,
+      "head_sha256": "408671aa048541b5812a08105b2fac3a8c4a3cd5f69fef198373d8cb6b882372",
+      "lines_read": 176556,
+      "sampled": 5000,
+      "license": "not stated on the HF mirror (L3Cube release)"
+    },
+    "mecorpus": {
+      "source": "me_roman.txt",
+      "sha256": "38dcea6c77aacbd5a921a965d116daa920aed264972c542984f4a54ecc4e5413",
+      "lines_read": 5000001,
+      "sampled": 5000,
+      "license": "not stated (L3Cube MeCorpus)"
+    }
+  },
+  "tokenizers": {
+    "GPT-4o (o200k_base)": {
+      "source": "tiktoken 0.12.0 o200k_base",
+      "vocab": 200019
+    },
+    "GPT-4 (cl100k_base)": {
+      "source": "tiktoken 0.12.0 cl100k_base",
+      "vocab": 100277
+    },
+    "Qwen2.5": {
+      "source": "hf://Qwen/Qwen2.5-7B-Instruct@a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json",
+      "vocab": 151665
+    },
+    "Sarvam-1": {
+      "source": "hf://sarvamai/sarvam-1@e9607337286ddf496d4a2562b194e489dcf3feea/tokenizer.json",
+      "vocab": 68096
+    },
+    "Sarvam-M": {
+      "source": "hf://sarvamai/sarvam-m@01534a53c46f2788e392dbb3d994e0fa8f04d3fd/tokenizer.json",
+      "vocab": 131072
+    },
+    "Sarvam-30B": {
+      "source": "hf://sarvamai/sarvam-30b@071ae95e933605ca1104a6b4524a36a98488efa4/tokenizer.json",
+      "vocab": 262144
+    },
+    "Sarvam-105B": {
+      "source": "hf://sarvamai/sarvam-105b@abe264bdb8fb2244daadaa59ebc2020b3c139e89/tokenizer.json",
+      "vocab": 262144
+    },
+    "Mistral-Nemo": {
+      "source": "hf://mistralai/Mistral-Nemo-Instruct-2407@04d8a90549d23fc6bd7f642064003592df51e9b3/tokenizer.json",
+      "vocab": 131072
+    },
+    "DeepSeek-V3": {
+      "source": "hf://deepseek-ai/DeepSeek-V3@e815299b0bcbac849fa540c768ef21845365c9eb/tokenizer.json",
+      "vocab": 128815
+    },
+    "Havon v1": {
+      "source": "tokenizers/havon_v1/tokenizer.json",
+      "sha256": "d1cf905f328c9c2f9bc1f79bdd303111bb5df3705ef28719c0f430ef125b7474",
+      "vocab": 32768
+    },
+    "Havon v2": {
+      "source": "tokenizers/havon_v2/tokenizer.json",
+      "sha256": "098d13988eb2203bbaf38186180e29a87e804e635179cef4910610eb59f51d47",
+      "vocab": 32768
+    }
+  },
+  "reference_english": "GPT-4o (o200k_base)",
+  "headline": {
+    "GPT-4o (o200k_base)": {
+      "tps_eng_flores": 26.087,
+      "tps_hin_flores": 41.059,
+      "tps_mar_flores": 47.36,
+      "mar_vs_ref_english": 1.815,
+      "hin_vs_ref_english": 1.574,
+      "parity_hin_flores": 1.574,
+      "parity_mar_flores": 1.815,
+      "parity_hinglish_phinc": 1.282,
+      "tpw_eng_flores": 1.223,
+      "tpw_hin_flores": 1.642,
+      "tpw_mar_flores": 2.564,
+      "tpw_eng_phinc": 1.357,
+      "tpw_hinglish_phinc": 1.609,
+      "tpw_hinglish_hingcorpus": 1.449,
+      "tpw_mar_rom_mecorpus": 2.136
+    },
+    "GPT-4 (cl100k_base)": {
+      "tps_eng_flores": 26.373,
+      "tps_hin_flores": 126.162,
+      "tps_mar_flores": 132.969,
+      "mar_vs_ref_english": 5.097,
+      "hin_vs_ref_english": 4.836,
+      "parity_hin_flores": 4.784,
+      "parity_mar_flores": 5.042,
+      "parity_hinglish_phinc": 1.364,
+      "tpw_eng_flores": 1.236,
+      "tpw_hin_flores": 5.044,
+      "tpw_mar_flores": 7.198,
+      "tpw_eng_phinc": 1.399,
+      "tpw_hinglish_phinc": 1.766,
+      "tpw_hinglish_hingcorpus": 1.602,
+      "tpw_mar_rom_mecorpus": 2.35
+    },
+    "Qwen2.5": {
+      "tps_eng_flores": 26.817,
+      "tps_hin_flores": 118.794,
+      "tps_mar_flores": 123.537,
+      "mar_vs_ref_english": 4.736,
+      "hin_vs_ref_english": 4.554,
+      "parity_hin_flores": 4.43,
+      "parity_mar_flores": 4.607,
+      "parity_hinglish_phinc": 1.356,
+      "tpw_eng_flores": 1.257,
+      "tpw_hin_flores": 4.749,
+      "tpw_mar_flores": 6.688,
+      "tpw_eng_phinc": 1.412,
+      "tpw_hinglish_phinc": 1.77,
+      "tpw_hinglish_hingcorpus": 1.586,
+      "tpw_mar_rom_mecorpus": 2.368
+    },
+    "Sarvam-1": {
+      "tps_eng_flores": 30.531,
+      "tps_hin_flores": 34.724,
+      "tps_mar_flores": 32.626,
+      "mar_vs_ref_english": 1.251,
+      "hin_vs_ref_english": 1.331,
+      "parity_hin_flores": 1.137,
+      "parity_mar_flores": 1.069,
+      "parity_hinglish_phinc": 1.485,
+      "tpw_eng_flores": 1.431,
+      "tpw_hin_flores": 1.388,
+      "tpw_mar_flores": 1.766,
+      "tpw_eng_phinc": 1.633,
+      "tpw_hinglish_phinc": 2.244,
+      "tpw_hinglish_hingcorpus": 2.05,
+      "tpw_mar_rom_mecorpus": 2.919
+    },
+    "Sarvam-M": {
+      "tps_eng_flores": 27.031,
+      "tps_hin_flores": 48.498,
+      "tps_mar_flores": 57.899,
+      "mar_vs_ref_english": 2.219,
+      "hin_vs_ref_english": 1.859,
+      "parity_hin_flores": 1.794,
+      "parity_mar_flores": 2.142,
+      "parity_hinglish_phinc": 1.326,
+      "tpw_eng_flores": 1.267,
+      "tpw_hin_flores": 1.939,
+      "tpw_mar_flores": 3.134,
+      "tpw_eng_phinc": 1.437,
+      "tpw_hinglish_phinc": 1.762,
+      "tpw_hinglish_hingcorpus": 1.635,
+      "tpw_mar_rom_mecorpus": 2.314
+    },
+    "Sarvam-30B": {
+      "tps_eng_flores": 26.383,
+      "tps_hin_flores": 34.615,
+      "tps_mar_flores": 36.729,
+      "mar_vs_ref_english": 1.408,
+      "hin_vs_ref_english": 1.327,
+      "parity_hin_flores": 1.312,
+      "parity_mar_flores": 1.392,
+      "parity_hinglish_phinc": 1.199,
+      "tpw_eng_flores": 1.237,
+      "tpw_hin_flores": 1.384,
+      "tpw_mar_flores": 1.988,
+      "tpw_eng_phinc": 1.376,
+      "tpw_hinglish_phinc": 1.525,
+      "tpw_hinglish_hingcorpus": 1.365,
+      "tpw_mar_rom_mecorpus": 2.111
+    },
+    "Sarvam-105B": {
+      "tps_eng_flores": 26.383,
+      "tps_hin_flores": 34.615,
+      "tps_mar_flores": 36.729,
+      "mar_vs_ref_english": 1.408,
+      "hin_vs_ref_english": 1.327,
+      "parity_hin_flores": 1.312,
+      "parity_mar_flores": 1.392,
+      "parity_hinglish_phinc": 1.199,
+      "tpw_eng_flores": 1.237,
+      "tpw_hin_flores": 1.384,
+      "tpw_mar_flores": 1.988,
+      "tpw_eng_phinc": 1.376,
+      "tpw_hinglish_phinc": 1.525,
+      "tpw_hinglish_hingcorpus": 1.365,
+      "tpw_mar_rom_mecorpus": 2.111
+    },
+    "Mistral-Nemo": {
+      "tps_eng_flores": 27.031,
+      "tps_hin_flores": 48.498,
+      "tps_mar_flores": 57.899,
+      "mar_vs_ref_english": 2.219,
+      "hin_vs_ref_english": 1.859,
+      "parity_hin_flores": 1.794,
+      "parity_mar_flores": 2.142,
+      "parity_hinglish_phinc": 1.326,
+      "tpw_eng_flores": 1.267,
+      "tpw_hin_flores": 1.939,
+      "tpw_mar_flores": 3.134,
+      "tpw_eng_phinc": 1.437,
+      "tpw_hinglish_phinc": 1.762,
+      "tpw_hinglish_hingcorpus": 1.635,
+      "tpw_mar_rom_mecorpus": 2.314
+    },
+    "DeepSeek-V3": {
+      "tps_eng_flores": 26.25,
+      "tps_hin_flores": 73.633,
+      "tps_mar_flores": 78.723,
+      "mar_vs_ref_english": 3.018,
+      "hin_vs_ref_english": 2.823,
+      "parity_hin_flores": 2.805,
+      "parity_mar_flores": 2.999,
+      "parity_hinglish_phinc": 1.345,
+      "tpw_eng_flores": 1.231,
+      "tpw_hin_flores": 2.944,
+      "tpw_mar_flores": 4.262,
+      "tpw_eng_phinc": 1.411,
+      "tpw_hinglish_phinc": 1.755,
+      "tpw_hinglish_hingcorpus": 1.576,
+      "tpw_mar_rom_mecorpus": 2.315
+    },
+    "Havon v1": {
+      "tps_eng_flores": 30.778,
+      "tps_hin_flores": 35.41,
+      "tps_mar_flores": 32.282,
+      "mar_vs_ref_english": 1.237,
+      "hin_vs_ref_english": 1.357,
+      "parity_hin_flores": 1.15,
+      "parity_mar_flores": 1.049,
+      "parity_hinglish_phinc": 1.108,
+      "tpw_eng_flores": 1.443,
+      "tpw_hin_flores": 1.416,
+      "tpw_mar_flores": 1.748,
+      "tpw_eng_phinc": 1.478,
+      "tpw_hinglish_phinc": 1.514,
+      "tpw_hinglish_hingcorpus": 1.312,
+      "tpw_mar_rom_mecorpus": 1.742
+    },
+    "Havon v2": {
+      "tps_eng_flores": 31.051,
+      "tps_hin_flores": 36.99,
+      "tps_mar_flores": 33.914,
+      "mar_vs_ref_english": 1.3,
+      "hin_vs_ref_english": 1.418,
+      "parity_hin_flores": 1.191,
+      "parity_mar_flores": 1.092,
+      "parity_hinglish_phinc": 1.116,
+      "tpw_eng_flores": 1.456,
+      "tpw_hin_flores": 1.479,
+      "tpw_mar_flores": 1.836,
+      "tpw_eng_phinc": 1.492,
+      "tpw_hinglish_phinc": 1.54,
+      "tpw_hinglish_hingcorpus": 1.345,
+      "tpw_mar_rom_mecorpus": 1.807
+    }
+  },
+  "indic": {
+    "GPT-4o (o200k_base)": {
+      "median_parity": 1.815,
+      "max_parity": 13.719,
+      "max_parity_lang": "sat_Olck",
+      "min_parity": 1.574,
+      "min_parity_lang": "hin_Deva"
+    },
+    "GPT-4 (cl100k_base)": {
+      "median_parity": 4.977,
+      "max_parity": 12.764,
+      "max_parity_lang": "sat_Olck",
+      "min_parity": 1.964,
+      "min_parity_lang": "lus_Latn"
+    },
+    "Qwen2.5": {
+      "median_parity": 4.539,
+      "max_parity": 9.727,
+      "max_parity_lang": "ory_Orya",
+      "min_parity": 1.944,
+      "min_parity_lang": "lus_Latn"
+    },
+    "Sarvam-1": {
+      "median_parity": 1.379,
+      "max_parity": 11.779,
+      "max_parity_lang": "sat_Olck",
+      "min_parity": 1.069,
+      "min_parity_lang": "mar_Deva"
+    },
+    "Sarvam-M": {
+      "median_parity": 2.257,
+      "max_parity": 12.93,
+      "max_parity_lang": "ory_Orya",
+      "min_parity": 1.76,
+      "min_parity_lang": "urd_Arab"
+    },
+    "Sarvam-30B": {
+      "median_parity": 1.529,
+      "max_parity": 2.502,
+      "max_parity_lang": "mni_Beng",
+      "min_parity": 1.213,
+      "min_parity_lang": "ben_Beng"
+    },
+    "Sarvam-105B": {
+      "median_parity": 1.529,
+      "max_parity": 2.502,
+      "max_parity_lang": "mni_Beng",
+      "min_parity": 1.213,
+      "min_parity_lang": "ben_Beng"
+    },
+    "Mistral-Nemo": {
+      "median_parity": 2.257,
+      "max_parity": 12.93,
+      "max_parity_lang": "ory_Orya",
+      "min_parity": 1.76,
+      "min_parity_lang": "urd_Arab"
+    },
+    "DeepSeek-V3": {
+      "median_parity": 2.999,
+      "max_parity": 6.437,
+      "max_parity_lang": "sat_Olck",
+      "min_parity": 1.946,
+      "min_parity_lang": "lus_Latn"
+    },
+    "Havon v1": {
+      "median_parity": 5.535,
+      "max_parity": 13.231,
+      "max_parity_lang": "tam_Taml",
+      "min_parity": 1.049,
+      "min_parity_lang": "mar_Deva"
+    },
+    "Havon v2": {
+      "median_parity": 5.523,
+      "max_parity": 13.127,
+      "max_parity_lang": "tam_Taml",
+      "min_parity": 1.092,
+      "min_parity_lang": "mar_Deva"
+    }
+  }
+}
