@@ -1,0 +1,1329 @@
+{
+ "languages_checked": 188,
+ "sentences_checked": 377692,
+ "contaminated_sentences": 2,
+ "languages_with_any": 2,
+ "rule": "13-word or 30-character n-grams; >= 50% of a sentence's n-grams found",
+ "by_language": [
+  {
+   "lang": "ckb_Arab",
+   "sentences": 2009,
+   "contaminated": 1,
+   "sample_chars": 2009667,
+   "examples": [
+    "nan"
+   ]
+  },
+  {
+   "lang": "taq_Tfng",
+   "sentences": 2009,
+   "contaminated": 1,
+   "sample_chars": 316331,
+   "examples": [
+    "ⴰ"
+   ]
+  },
+  {
+   "lang": "afr_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2051678,
+   "examples": []
+  },
+  {
+   "lang": "ace_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003152,
+   "examples": []
+  },
+  {
+   "lang": "aeb_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2010666,
+   "examples": []
+  },
+  {
+   "lang": "acm_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002443,
+   "examples": []
+  },
+  {
+   "lang": "als_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002922,
+   "examples": []
+  },
+  {
+   "lang": "apc_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001455,
+   "examples": []
+  },
+  {
+   "lang": "arb_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000468,
+   "examples": []
+  },
+  {
+   "lang": "ars_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2021677,
+   "examples": []
+  },
+  {
+   "lang": "ary_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2007338,
+   "examples": []
+  },
+  {
+   "lang": "arz_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2007104,
+   "examples": []
+  },
+  {
+   "lang": "ast_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005826,
+   "examples": []
+  },
+  {
+   "lang": "arb_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10008405,
+   "examples": []
+  },
+  {
+   "lang": "awa_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2008133,
+   "examples": []
+  },
+  {
+   "lang": "amh_Ethi",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10006477,
+   "examples": []
+  },
+  {
+   "lang": "ayr_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001370,
+   "examples": []
+  },
+  {
+   "lang": "azb_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2014065,
+   "examples": []
+  },
+  {
+   "lang": "bak_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001807,
+   "examples": []
+  },
+  {
+   "lang": "ban_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2006755,
+   "examples": []
+  },
+  {
+   "lang": "bam_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002471,
+   "examples": []
+  },
+  {
+   "lang": "bem_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001718,
+   "examples": []
+  },
+  {
+   "lang": "bel_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005538,
+   "examples": []
+  },
+  {
+   "lang": "bho_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001921,
+   "examples": []
+  },
+  {
+   "lang": "azj_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10007176,
+   "examples": []
+  },
+  {
+   "lang": "bjn_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001180,
+   "examples": []
+  },
+  {
+   "lang": "bjn_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2006637,
+   "examples": []
+  },
+  {
+   "lang": "bos_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001090,
+   "examples": []
+  },
+  {
+   "lang": "bod_Tibt",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2099764,
+   "examples": []
+  },
+  {
+   "lang": "bug_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 211265,
+   "examples": []
+  },
+  {
+   "lang": "cat_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10013177,
+   "examples": []
+  },
+  {
+   "lang": "bul_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10021294,
+   "examples": []
+  },
+  {
+   "lang": "ceb_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003265,
+   "examples": []
+  },
+  {
+   "lang": "cjk_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 77732,
+   "examples": []
+  },
+  {
+   "lang": "crh_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2007017,
+   "examples": []
+  },
+  {
+   "lang": "asm_Beng",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30013399,
+   "examples": []
+  },
+  {
+   "lang": "cym_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001564,
+   "examples": []
+  },
+  {
+   "lang": "ces_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003165,
+   "examples": []
+  },
+  {
+   "lang": "dik_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001402,
+   "examples": []
+  },
+  {
+   "lang": "deu_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005637,
+   "examples": []
+  },
+  {
+   "lang": "dyu_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005490,
+   "examples": []
+  },
+  {
+   "lang": "dan_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10010972,
+   "examples": []
+  },
+  {
+   "lang": "dzo_Tibt",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002250,
+   "examples": []
+  },
+  {
+   "lang": "epo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2008025,
+   "examples": []
+  },
+  {
+   "lang": "eus_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2004409,
+   "examples": []
+  },
+  {
+   "lang": "ben_Beng",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30013283,
+   "examples": []
+  },
+  {
+   "lang": "ewe_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2028135,
+   "examples": []
+  },
+  {
+   "lang": "fao_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003256,
+   "examples": []
+  },
+  {
+   "lang": "fij_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003059,
+   "examples": []
+  },
+  {
+   "lang": "ell_Grek",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10014832,
+   "examples": []
+  },
+  {
+   "lang": "fon_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003131,
+   "examples": []
+  },
+  {
+   "lang": "fur_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2006903,
+   "examples": []
+  },
+  {
+   "lang": "fuv_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2046789,
+   "examples": []
+  },
+  {
+   "lang": "gaz_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000581,
+   "examples": []
+  },
+  {
+   "lang": "gla_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001100,
+   "examples": []
+  },
+  {
+   "lang": "gle_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000991,
+   "examples": []
+  },
+  {
+   "lang": "fra_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005207,
+   "examples": []
+  },
+  {
+   "lang": "glg_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003580,
+   "examples": []
+  },
+  {
+   "lang": "hat_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001986,
+   "examples": []
+  },
+  {
+   "lang": "fin_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10004476,
+   "examples": []
+  },
+  {
+   "lang": "hau_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10006835,
+   "examples": []
+  },
+  {
+   "lang": "hne_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003244,
+   "examples": []
+  },
+  {
+   "lang": "heb_Hebr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005415,
+   "examples": []
+  },
+  {
+   "lang": "hrv_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10028458,
+   "examples": []
+  },
+  {
+   "lang": "hun_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10012433,
+   "examples": []
+  },
+  {
+   "lang": "guj_Gujr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30014464,
+   "examples": []
+  },
+  {
+   "lang": "ilo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002891,
+   "examples": []
+  },
+  {
+   "lang": "hye_Armn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003840,
+   "examples": []
+  },
+  {
+   "lang": "isl_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001664,
+   "examples": []
+  },
+  {
+   "lang": "ibo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003773,
+   "examples": []
+  },
+  {
+   "lang": "jav_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003318,
+   "examples": []
+  },
+  {
+   "lang": "ind_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10002237,
+   "examples": []
+  },
+  {
+   "lang": "hin_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30012958,
+   "examples": []
+  },
+  {
+   "lang": "kab_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2007439,
+   "examples": []
+  },
+  {
+   "lang": "ita_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003834,
+   "examples": []
+  },
+  {
+   "lang": "kac_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2011693,
+   "examples": []
+  },
+  {
+   "lang": "kam_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005108,
+   "examples": []
+  },
+  {
+   "lang": "kas_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 1665220,
+   "examples": []
+  },
+  {
+   "lang": "kas_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 1080211,
+   "examples": []
+  },
+  {
+   "lang": "jpn_Jpan",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10007991,
+   "examples": []
+  },
+  {
+   "lang": "kbp_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 1936755,
+   "examples": []
+  },
+  {
+   "lang": "kea_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2019868,
+   "examples": []
+  },
+  {
+   "lang": "khk_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2047110,
+   "examples": []
+  },
+  {
+   "lang": "kat_Geor",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005063,
+   "examples": []
+  },
+  {
+   "lang": "kaz_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003340,
+   "examples": []
+  },
+  {
+   "lang": "kik_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2004007,
+   "examples": []
+  },
+  {
+   "lang": "kin_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001036,
+   "examples": []
+  },
+  {
+   "lang": "kir_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2006163,
+   "examples": []
+  },
+  {
+   "lang": "kmb_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000649,
+   "examples": []
+  },
+  {
+   "lang": "knc_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 270060,
+   "examples": []
+  },
+  {
+   "lang": "kmr_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2035611,
+   "examples": []
+  },
+  {
+   "lang": "khm_Khmr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005523,
+   "examples": []
+  },
+  {
+   "lang": "lij_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001679,
+   "examples": []
+  },
+  {
+   "lang": "lim_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2020657,
+   "examples": []
+  },
+  {
+   "lang": "lin_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2012634,
+   "examples": []
+  },
+  {
+   "lang": "lao_Laoo",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005493,
+   "examples": []
+  },
+  {
+   "lang": "lmo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002075,
+   "examples": []
+  },
+  {
+   "lang": "ltg_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000758,
+   "examples": []
+  },
+  {
+   "lang": "kor_Hang",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10123783,
+   "examples": []
+  },
+  {
+   "lang": "ltz_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002927,
+   "examples": []
+  },
+  {
+   "lang": "lua_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2009880,
+   "examples": []
+  },
+  {
+   "lang": "lug_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001064,
+   "examples": []
+  },
+  {
+   "lang": "luo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002009,
+   "examples": []
+  },
+  {
+   "lang": "lus_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2035938,
+   "examples": []
+  },
+  {
+   "lang": "lit_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10054178,
+   "examples": []
+  },
+  {
+   "lang": "mag_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 1720369,
+   "examples": []
+  },
+  {
+   "lang": "kan_Knda",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30035535,
+   "examples": []
+  },
+  {
+   "lang": "lvs_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10033504,
+   "examples": []
+  },
+  {
+   "lang": "min_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2068107,
+   "examples": []
+  },
+  {
+   "lang": "mkd_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001549,
+   "examples": []
+  },
+  {
+   "lang": "mlt_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001159,
+   "examples": []
+  },
+  {
+   "lang": "mai_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30017211,
+   "examples": []
+  },
+  {
+   "lang": "mar_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30013541,
+   "examples": []
+  },
+  {
+   "lang": "mos_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003732,
+   "examples": []
+  },
+  {
+   "lang": "mri_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002049,
+   "examples": []
+  },
+  {
+   "lang": "mni_Beng",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 21850147,
+   "examples": []
+  },
+  {
+   "lang": "nno_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2022774,
+   "examples": []
+  },
+  {
+   "lang": "nld_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10206276,
+   "examples": []
+  },
+  {
+   "lang": "mal_Mlym",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30014065,
+   "examples": []
+  },
+  {
+   "lang": "nso_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005559,
+   "examples": []
+  },
+  {
+   "lang": "mya_Mymr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003763,
+   "examples": []
+  },
+  {
+   "lang": "nus_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 423480,
+   "examples": []
+  },
+  {
+   "lang": "nob_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10014442,
+   "examples": []
+  },
+  {
+   "lang": "oci_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002704,
+   "examples": []
+  },
+  {
+   "lang": "nya_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001501,
+   "examples": []
+  },
+  {
+   "lang": "pag_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003013,
+   "examples": []
+  },
+  {
+   "lang": "pap_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2023407,
+   "examples": []
+  },
+  {
+   "lang": "pbt_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005021,
+   "examples": []
+  },
+  {
+   "lang": "plt_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001845,
+   "examples": []
+  },
+  {
+   "lang": "npi_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30013535,
+   "examples": []
+  },
+  {
+   "lang": "pol_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10060781,
+   "examples": []
+  },
+  {
+   "lang": "quy_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2014964,
+   "examples": []
+  },
+  {
+   "lang": "pan_Guru",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30011373,
+   "examples": []
+  },
+  {
+   "lang": "run_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2009982,
+   "examples": []
+  },
+  {
+   "lang": "por_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003552,
+   "examples": []
+  },
+  {
+   "lang": "sag_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001696,
+   "examples": []
+  },
+  {
+   "lang": "ron_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10025028,
+   "examples": []
+  },
+  {
+   "lang": "ory_Orya",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30024280,
+   "examples": []
+  },
+  {
+   "lang": "scn_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003577,
+   "examples": []
+  },
+  {
+   "lang": "rus_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10008687,
+   "examples": []
+  },
+  {
+   "lang": "sat_Olck",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 4704023,
+   "examples": []
+  },
+  {
+   "lang": "shn_Mymr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005913,
+   "examples": []
+  },
+  {
+   "lang": "slk_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10004492,
+   "examples": []
+  },
+  {
+   "lang": "slv_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003213,
+   "examples": []
+  },
+  {
+   "lang": "smo_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2004224,
+   "examples": []
+  },
+  {
+   "lang": "sin_Sinh",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10010626,
+   "examples": []
+  },
+  {
+   "lang": "sna_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003773,
+   "examples": []
+  },
+  {
+   "lang": "sot_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001235,
+   "examples": []
+  },
+  {
+   "lang": "som_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10007559,
+   "examples": []
+  },
+  {
+   "lang": "srd_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000877,
+   "examples": []
+  },
+  {
+   "lang": "spa_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10004329,
+   "examples": []
+  },
+  {
+   "lang": "san_Deva",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30005947,
+   "examples": []
+  },
+  {
+   "lang": "ssw_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002876,
+   "examples": []
+  },
+  {
+   "lang": "sun_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2037235,
+   "examples": []
+  },
+  {
+   "lang": "srp_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10006457,
+   "examples": []
+  },
+  {
+   "lang": "szl_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002865,
+   "examples": []
+  },
+  {
+   "lang": "swh_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10006709,
+   "examples": []
+  },
+  {
+   "lang": "swe_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003651,
+   "examples": []
+  },
+  {
+   "lang": "taq_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2012773,
+   "examples": []
+  },
+  {
+   "lang": "tat_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000378,
+   "examples": []
+  },
+  {
+   "lang": "tgk_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003005,
+   "examples": []
+  },
+  {
+   "lang": "snd_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30066545,
+   "examples": []
+  },
+  {
+   "lang": "tir_Ethi",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2005076,
+   "examples": []
+  },
+  {
+   "lang": "tpi_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002523,
+   "examples": []
+  },
+  {
+   "lang": "tsn_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000987,
+   "examples": []
+  },
+  {
+   "lang": "tso_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000809,
+   "examples": []
+  },
+  {
+   "lang": "tha_Thai",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005152,
+   "examples": []
+  },
+  {
+   "lang": "tuk_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003502,
+   "examples": []
+  },
+  {
+   "lang": "tum_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 862301,
+   "examples": []
+  },
+  {
+   "lang": "twi_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003014,
+   "examples": []
+  },
+  {
+   "lang": "tzm_Tfng",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2003118,
+   "examples": []
+  },
+  {
+   "lang": "uig_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2007561,
+   "examples": []
+  },
+  {
+   "lang": "tur_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10009932,
+   "examples": []
+  },
+  {
+   "lang": "umb_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001846,
+   "examples": []
+  },
+  {
+   "lang": "tel_Telu",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30311693,
+   "examples": []
+  },
+  {
+   "lang": "ukr_Cyrl",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003887,
+   "examples": []
+  },
+  {
+   "lang": "vec_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2000901,
+   "examples": []
+  },
+  {
+   "lang": "tam_Taml",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30011648,
+   "examples": []
+  },
+  {
+   "lang": "war_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001860,
+   "examples": []
+  },
+  {
+   "lang": "uzn_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10019938,
+   "examples": []
+  },
+  {
+   "lang": "wol_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2001451,
+   "examples": []
+  },
+  {
+   "lang": "ydd_Hebr",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2014400,
+   "examples": []
+  },
+  {
+   "lang": "vie_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10002512,
+   "examples": []
+  },
+  {
+   "lang": "xho_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 2002748,
+   "examples": []
+  },
+  {
+   "lang": "zsm_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10002812,
+   "examples": []
+  },
+  {
+   "lang": "zul_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10003459,
+   "examples": []
+  },
+  {
+   "lang": "yor_Latn",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 10005492,
+   "examples": []
+  },
+  {
+   "lang": "urd_Arab",
+   "sentences": 2009,
+   "contaminated": 0,
+   "sample_chars": 30013683,
+   "examples": []
+  }
+ ]
+}

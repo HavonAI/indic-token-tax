@@ -34,6 +34,16 @@ python truncate.py tokenizers/havon_v3/tokenizer.json 200019 havon_v3_200k.json
 python eval_world.py --flores data/flores/flores200_dataset.tar.gz --split devtest --candidate "v3-200k=havon_v3_200k.json" --out results/v4/check_v3
 ```
 
+**Significance and overlap checks (v4 paper):**
+
+```bash
+cd training
+python -m tokenizer_v3.bootstrap_ci --flores PATH/flores200_dataset.tar.gz --split devtest     --candidate "v4-200k=../tokenizers/havon_v4/tokenizer_200k.json" --rival "GPT-4o (o200k_base)" --out ../results/v4/ci
+python -m tokenizer_v3.contamination --samples SAMPLES_DIR --flores PATH/flores200_dataset.tar.gz --out ../results/v4/contamination
+```
+
+`results/v4/ci/` holds 95% bootstrap intervals (1,000 sentence resamples, seed 42) for every language; `results/v4/contamination/` holds the FLORES-200 overlap check of the tokenizer training sample (13-word or 30-character n-grams).
+
 The token counts behind the v4 paper are in `results/v4/`: `v4_200k` (dev and devtest), `v4_256k_512k` (dev and devtest), `v3_200k` (devtest) and `v3_1_dev` (the rebalanced v3.1 ablation, dev only; its tokenizer is not released).
 
 ### Training the tokenizers

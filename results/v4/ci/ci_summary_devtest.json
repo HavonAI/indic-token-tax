@@ -1,0 +1,111 @@
+{
+ "split": "devtest",
+ "bootstrap": 1000,
+ "seed": 42,
+ "pairs": {
+  "v3 vs GPT-4o (o200k_base)": {
+   "wins_point": 172,
+   "wins_significant": 168,
+   "losses_significant": 30,
+   "unclear": 6,
+   "india_wins_significant": 25,
+   "english": [
+    1.0707,
+    1.0667,
+    1.0747
+   ],
+   "widest_interval": 0.0165
+  },
+  "v3 vs Sarvam-30B/105B": {
+   "wins_point": 186,
+   "wins_significant": 186,
+   "losses_significant": 17,
+   "unclear": 1,
+   "india_wins_significant": 22,
+   "english": [
+    1.0609,
+    1.057,
+    1.0647
+   ],
+   "widest_interval": 0.0244
+  },
+  "v4-200k vs GPT-4o (o200k_base)": {
+   "wins_point": 161,
+   "wins_significant": 160,
+   "losses_significant": 41,
+   "unclear": 3,
+   "india_wins_significant": 25,
+   "english": [
+    0.9394,
+    0.9328,
+    0.9462
+   ],
+   "widest_interval": 0.0235
+  },
+  "v4-200k vs Sarvam-30B/105B": {
+   "wins_point": 187,
+   "wins_significant": 187,
+   "losses_significant": 16,
+   "unclear": 1,
+   "india_wins_significant": 23,
+   "english": [
+    0.9308,
+    0.9241,
+    0.9376
+   ],
+   "widest_interval": 0.0226
+  },
+  "v4-256k vs GPT-4o (o200k_base)": {
+   "wins_point": 182,
+   "wins_significant": 180,
+   "losses_significant": 18,
+   "unclear": 6,
+   "india_wins_significant": 25,
+   "english": [
+    0.9038,
+    0.8974,
+    0.9101
+   ],
+   "widest_interval": 0.0145
+  },
+  "v4-256k vs Sarvam-30B/105B": {
+   "wins_point": 192,
+   "wins_significant": 192,
+   "losses_significant": 11,
+   "unclear": 1,
+   "india_wins_significant": 23,
+   "english": [
+    0.8955,
+    0.8893,
+    0.9017
+   ],
+   "widest_interval": 0.0223
+  },
+  "v4-512k vs GPT-4o (o200k_base)": {
+   "wins_point": 203,
+   "wins_significant": 203,
+   "losses_significant": 1,
+   "unclear": 0,
+   "india_wins_significant": 25,
+   "english": [
+    0.8264,
+    0.8199,
+    0.8329
+   ],
+   "widest_interval": 0.0145
+  },
+  "v4-512k vs Sarvam-30B/105B": {
+   "wins_point": 199,
+   "wins_significant": 199,
+   "losses_significant": 4,
+   "unclear": 1,
+   "india_wins_significant": 25,
+   "english": [
+    0.8188,
+    0.813,
+    0.8249
+   ],
+   "widest_interval": 0.0212
+  }
+ }
+}
